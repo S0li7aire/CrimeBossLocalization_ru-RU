@@ -1047,12 +1047,12 @@ ST_ami_Objectives/obj_ami_2c_coke,Забрать кокаин,
 ST_ami_Objectives/obj_ami_2d_cargo,Забрать добычу из фургона,
 ST_ami_Objectives/obj_ami_2e_bags,Забрать свои сумки,
 ST_ami_Objectives/obj_ipa_3_leavewithcasey,Уйти с Кейси,
-ST_ami_Objectives/obj_tuj_pingguard,Прикажите члену команды вырубить охранника,
-ST_ami_Objectives/obj_tuj_pingloot,"Отметьте добычу, чтобы их забрал товарищ по команде",
+ST_ami_Objectives/obj_tuj_pingguard,Прикажите члену команды вырубить охранника,Приказать члену команды вырубить охранника
+ST_ami_Objectives/obj_tuj_pingloot,"Отметьте добычу, чтобы их забрал товарищ по команде","Отметить добычу, чтобы её забрал товарищ по команде"
 ST_ami_Objectives/obj_tuj_lockpickthedoor,Взломать дверной замок,
 ST_ami_Objectives/obj_tuj_pickupkeycard,Подобрать ключ-карту,
 ST_ami_Objectives/obj_tuj_restraincivilians,Зафиксировать гражданских,
-ST_ami_Objectives/obj_tuj_sneakaroundcamera,Проберитесь под камерой,
+ST_ami_Objectives/obj_tuj_sneakaroundcamera,Проберитесь под камерой,Пробраться под камерой
 ST_ami_Objectives/obj_tuj_gettobackyard,Проскользнуть на задний двор,
 ST_ami_Objectives/obj_ipa_2_findcasey,Поговорить с Кейси,
 ST_ami_Objectives/obj_ipa_1_speaktoking,Поговорить с Королем,
@@ -1433,15 +1433,15 @@ ST_asi_Variations/GenericPlanner_ID_asi_re_locked_she_2_All_1,Поторопит
 ST_asi_Variations/GenericPlanner_ID_asi_fail_stealth_1_All_1,Вас не должны были заметить во время убийства. Теперь у нас неприятности.,
 ST_asi_Variations/GenericPlanner_ID_asi_fail_beat_1_All_1,"Вы не должны были убивать цель, просто избить. Это так сложно?",
 ST_atc_Objectives/obj_atc_2b_destroy_at_least,Уничтожить как минимум столько объектов,
-ST_atc_Objectives/obj_atc_1_enter_club,Войдите в клуб.,
-ST_atc_Objectives/obj_atc_1d_kill_manager_intro,Убейте администратора.,
-ST_atc_Objectives/obj_atc_2d_kill_manager_goons,Убейте головорезов администратора.,
-ST_atc_Objectives/obj_atc_2c_kill,Убейте цель.,
-ST_atc_Objectives/obj_atc_2d_kill_manager,Убейте цель и телохранителей.,
-ST_atc_Objectives/obj_atc_2b_destroy,Разнесите это место.,
-ST_atc_Objectives/obj_atc_3a_cash_put_in_van,Отнесите наличные в фургон.,
-ST_atc_Objectives/obj_atc_2a_cash_steal,Украдите наличные.,
-ST_atc_Objectives/obj_atc_2a_cash_steal_basement,Украдите наличные из подвала.,
+ST_atc_Objectives/obj_atc_1_enter_club,Войдите в клуб.,Войти в клуб
+ST_atc_Objectives/obj_atc_1d_kill_manager_intro,Убейте администратора.,Убить администратора
+ST_atc_Objectives/obj_atc_2d_kill_manager_goons,Убейте головорезов администратора.,Убить головорезов администратора
+ST_atc_Objectives/obj_atc_2c_kill,Убейте цель.,Убить цель
+ST_atc_Objectives/obj_atc_2d_kill_manager,Убейте цель и телохранителей.,Убить цель и телохранителей
+ST_atc_Objectives/obj_atc_2b_destroy,Разнесите это место.,Разнести это место
+ST_atc_Objectives/obj_atc_3a_cash_put_in_van,Отнесите наличные в фургон.,Отнести наличные в фургон
+ST_atc_Objectives/obj_atc_2a_cash_steal,Украдите наличные.,Украсть наличные
+ST_atc_Objectives/obj_atc_2a_cash_steal_basement,Украдите наличные из подвала.,Украсть наличные из подвала
 ST_atg_Objectives/obj_atg_pag_locateparty,Сорвать вечеринку,
 ST_atg_Objectives/obj_atg_vamp_00_lock_doctor,Защитить доктора,
 ST_atg_Objectives/obj_atg_convoy_defend,Защититься!,
@@ -1490,7 +1490,7 @@ ST_auc_Objectives/obj_auc_deliver,Доставить ценности к тра�
 ST_auc_Objectives/obj_auc_disable_case_alarm,Отключить охранную систему,
 ST_auc_Objectives/obj_auc_escort_manager,Сопроводить администратора,
 ST_auc_Objectives/obj_auc_find_hack_pc,Найти и взломать нужный компьютер,
-ST_auc_Objectives/obj_auc_get_keycard,Избавьтесь от охраны!,
+ST_auc_Objectives/obj_auc_get_keycard,Избавьтесь от охраны!,Добыть ключи у начальника охраны
 ST_auc_Objectives/obj_auc_return_manager,Заставить администратора следовать за вами,
 ST_auc_Objectives/obj_auc_side_credentials,"Взломать компьютер администратора, чтобы получить доп. реквизиты",
 ST_auc_Objectives/obj_auc_enter_auction,Проникнуть в здание аукциона,
@@ -1610,7 +1610,7 @@ ST_bad_Objectives/obj_bad_2_control_guards,Взять под контроль о
 ST_bad_Objectives/obj_bad_5_vault,Опустошить хранилище,
 ST_bad_Objectives/obj_bad_5_vault_title,Опустошить хранилище,
 ST_bad_Objectives/obj_bad_1_enter,Незаметно проникнуть в банк,
-ST_bad_Objectives/obj_bad_1_enter_title,Войдите в банк.,
+ST_bad_Objectives/obj_bad_1_enter_title,Войдите в банк.,Войти в банк
 ST_bad_Objectives/obj_bad_7_escape,Скрыться,
 ST_bad_Objectives/obj_bad_7_escape_title,Сбежать!,
 ST_bad_Objectives/obj_bad_2_control_security,Найти комнату охраны,
@@ -2970,7 +2970,7 @@ ST_car_Variations/GenericPlanner_ID_car_safehouse_2_All_1,"Насчет торч
 ST_car_Variations/GenericPlanner_ID_car_blackscreen2_3_All_1,"А теперь моему укрытию кранты, так что думаю, что даже раньше.",
 ST_car_Variations/GenericPlanner_ID_car_car_dealer_2_All_1,"А когда пропадет еще и тачка, это пиздец, его просто удар хватит.",
 ST_car_Variations/GenericPlanner_ID_car_break_stealth_early_1_All_1,"Да вы что, блин, издеваетесь?!",
-ST_car_Variations/GenericPlanner_ID_car_safehouse_1_All_1,"Вы, главное, не лезьте к чикосам и варщикам их.",
+ST_car_Variations/GenericPlanner_ID_car_safehouse_1_All_1,"Вы, главное, не лезьте к чикосам и варщикам их.","Вы, главное, не лезьте к чикос и их варщикам."
 ST_car_Variations/GenericPlanner_ID_car_pedestal_1_All_1,Первым делом нужно вырубить этот крутящийся подиум.,
 ST_car_Variations/GenericPlanner_ID_car_place_last_c4_1_All_4,Подрывай!,
 ST_car_Variations/GenericPlanner_ID_car_safe_2_All_1,"Но в остальных нет того, что нам нужно.",
@@ -3059,7 +3059,7 @@ ST_car_Variations/GenericPlanner_ID_car_place_last_c4_1_All_2,Бей их!,
 ST_car_Variations/GenericPlanner_ID_car_explosives_stealth_1_All_1,Теперь придется пошуметь.,
 ST_car_Variations/GenericPlanner_ID_car_snd_heli_meantime_1_All_1,Вторая вертушка на подходе. Ожидайте.,
 ST_car_Variations/GenericPlanner_ID_car_place_last_c4_1_All_1,Ставим и подрываем!,
-ST_car_Variations/GenericPlanner_ID_car_break_stealth_later_1_All_3,"Блин. Короче, там еще чикосы на подходе. Давайте-ка максимально ускоримся, ага?",
+ST_car_Variations/GenericPlanner_ID_car_break_stealth_later_1_All_3,"Блин. Короче, там еще чикосы на подходе. Давайте-ка максимально ускоримся, ага?","Блин. Короче, там еще чикос на подходе. Давайте-ка максимально ускоримся, ага?"
 ST_car_Variations/GenericPlanner_ID_car_deliver_loot_1_All_1,Этого более чем достаточно. Тащите сумки в фургон.,
 ST_car_Variations/GenericPlanner_ID_car_magnet_2_All_1,"Как закрепите магнит, дайте сигнал пилоту.",
 ST_car_Variations/GenericPlanner_ID_car_escape_fail_lambo_1_All_2,Ну пиздец! Тачку потеряли.,
@@ -3085,7 +3085,7 @@ ST_car_Variations/GenericPlanner_ID_car_explosives_warning_1_All_1,"Эта ху�
 ST_car_Variations/GenericPlanner_ID_car_after_explosives_stealth_1_All_1,Они сейчас начнут стрельбу.,
 ST_car_Variations/GenericPlanner_ID_car_loot_reminder_1_All_4,"Это ваш шанс как следует нагнуть Хьело. Тащите всё, что сможете унести.",
 ST_car_Variations/GenericPlanner_ID_car_lambo_exploded_escape_1_All_2,"Всё, тут мы закончили. Сейчас кого-нибудь за вами пришлю.",
-ST_car_Variations/GenericPlanner_ID_car_deliver_loot_1_All_2,Хьело и чикосов мы сегодня знатно нагнули. Тащите добычу на эвакуацию.,
+ST_car_Variations/GenericPlanner_ID_car_deliver_loot_1_All_2,Хьело и чикосов мы сегодня знатно нагнули. Тащите добычу на эвакуацию.,Хьело и чикос мы сегодня знатно нагнули. Тащите добычу на эвакуацию.
 ST_car_Variations/GenericPlanner_ID_car_explosives_stealth_2_All_1,"Нужно заложить взрывчатку, которую вы притащили, на крышу над «торини».",
 ST_car_Variations/GenericPlanner_ID_car_explosives_reminder_1_All_4,Трех зарядов в нужных точках должно хватить. По идее. Я сам таким раньше не занимался.,
 ST_car_Variations/GenericPlanner_ID_car_pedestal_reminder_1_All_4,"Может, за стойкой или в кабинете его. Ну оглядитесь вокруг, блин.",
@@ -3102,7 +3102,7 @@ ST_car_Variations/GenericPlanner_ID_car_escape_reminder_1_All_2,"Ждем вас
 ST_car_Variations/GenericPlanner_ID_car_roof_exit_reminder_1_All_2,Вы чего? А ну отойдите!,
 ST_car_Variations/GenericPlanner_ID_car_break_stealth_early_1_All_2,"Чего там творится? Это что, выстрелы? Эй! Хрена ли там происходит?",
 ST_car_Variations/GenericPlanner_ID_car_safe_reminder_1_All_2,Чего ждем?,
-ST_car_Variations/GenericPlanner_ID_car_safehouse_reminder_1_All_3,"Чикосы сюда приезжают либо барыжить, либо забирать товар. Их будет предостаточно.",
+ST_car_Variations/GenericPlanner_ID_car_safehouse_reminder_1_All_3,"Чикосы сюда приезжают либо барыжить, либо забирать товар. Их будет предостаточно.","Чикос сюда приезжают либо барыжить, либо забирать товар. Их будет предостаточно."
 ST_car_Variations/GenericPlanner_ID_car_magnet_reminder_1_All_3,"Как закрепите магнит, лучше будет немного отойти, ага?",
 ST_car_Variations/GenericPlanner_ID_car_place_explosives_failed_1_All_1,"А третий заряд где? Вы его что, просрали уже? Погодите, я вам еще отправлю.",
 ST_car_Variations/GenericPlanner_ID_car_safe_3_All_1,"Нам нужен сейф. Вскрывайте его и забирайте оттуда всё. Главное, сраную кассету не забудьте.",
@@ -3111,7 +3111,7 @@ ST_car_Variations/GenericPlanner_ID_car_car_dealer_reminder_1_All_3,"Нужно 
 ST_car_Variations/GenericPlanner_ID_car_pedestal_reminder_1_All_3,Нужно остановить подиум.,
 ST_car_Variations/GenericPlanner_ID_car_snd_heli_meantime_1_All_5,Хотите выбесить Хьело? Вот такое работает безотказно!,
 ST_car_Variations/GenericPlanner_ID_car_roof_exit_1_All_2,"Уйдите с потолка быстро, а то вас тоже зацепит.",
-ST_car_Variations/GenericPlanner_ID_car_firstscreen_1_All_1,Это территория чикосов. Их тут будет с избытком.,
+ST_car_Variations/GenericPlanner_ID_car_firstscreen_1_All_1,Это территория чикосов. Их тут будет с избытком.,Это территория чикос. Их тут будет с избытком.
 ST_car_Variations/GenericPlanner_ID_car_basement_stealth_1_All_2,Вы в подвале. Давайте в лабораторию.,
 ST_car_Variations/GenericPlanner_ID_car_lab_1_All_2,"Вы уже в укрытии? Это хорошо, только нужно еще в лабу попасть, она внизу. Сейф хранится именно там.",
 ST_Carryables/name_basket_ball,Мяч,
@@ -3144,7 +3144,7 @@ ST_Carryables/name_treasure,Сокровище,
 ST_Carryables/name_vhs,Видеомагнитофон,
 ST_Carryables/name_vase,Ваза,
 ST_Carryables/item_final_name,{Prefix} {Suffix},
-ST_cga_Objectives/obj_atg_parking,Доберитесь до парковки!,
+ST_cga_Objectives/obj_atg_parking,Доберитесь до парковки!,Добраться до парковки!
 ST_cha/int_cha_FireRunes,Огненная руна,
 ST_cha/loot_item_guns,Сумка с оружием,
 ST_cha/int_cha_bed,Подъемник,
@@ -3160,8 +3160,8 @@ ST_cha1_Objectives/obj_cha1_kill_the_cops,Убить полицейских,
 ST_cha1_Objectives/obj_cha1_escape,Пора бежать,
 ST_cha2_Objectives/obj_cha2_drop_the_gun_bag,Бросить сумку с оружием,
 ST_cha2_Objectives/obj_cha2_enter_the_room,Войти в комнату,
-ST_cha2_Objectives/obj_cha2_get_in,Заходи.,
-ST_cha2_Objectives/obj_cha2_get_out,Выбраться,
+ST_cha2_Objectives/obj_cha2_get_in,Заходи.,Войти
+ST_cha2_Objectives/obj_cha2_get_out,Выбраться,Выйти
 ST_cha2_Objectives/obj_cha2_get_the_papers,Забрать бумаги,
 ST_cha2_Objectives/obj_cha2_get_upstairs,Подняться по лестнице,
 ST_cha2_Objectives/obj_cha2_take_the_guns,Забрать стволы,
@@ -3172,7 +3172,7 @@ ST_cha3_Objectives/obj_cha3_find_symbols,Найти символы и зажеч
 ST_cha3_Objectives/obj_cha3_get_house,Добраться до дома,
 ST_cha4_Objectives/obj_cha4_kill_the_demons,Убить демонов!,
 ST_cha4_Objectives/obj_cha4_get_the_pizza,Забрать пиццу,
-ST_cha4_Objectives/obj_clu3_run_across_highway,Бегите через шоссе.,
+ST_cha4_Objectives/obj_clu3_run_across_highway,Бегите через шоссе.,Перебежать шоссе
 ST_cha4_Objectives/obj:clu3_escape,Пора бежать,
 ST_cha5_Objectives/obj_cha5_find_way_inside,Найти способ забраться внутрь,
 ST_cha5_Objectives/obj_cha5_find_tunnels,Найти тоннели,
@@ -4863,7 +4863,7 @@ ST_Codex/codex_entry_cameras_description,"В закрытых локациях �
 
 Вся система наблюдения управляется через установленный в <Italic>помещении охраны</> <BigEm>МОНИТОР ОХРАННОЙ СИСТЕМЫ</>. С его помощью можно осмотреть местность или просто отключить все камеры наблюдения.",
 ST_Codex/codex_entry_perks_title,Особенности,
-ST_Codex/codex_entry_ping_title,Задержка,
+ST_Codex/codex_entry_ping_title,Задержка,Отметки
 ST_Codex/codex_entry_ping_description,"Посмотрите на предмет и нажмите <action id=""Ping""/>, чтобы <BigEm>ВЫДЕЛИТЬ</> его для себя и союзников. Так можно следить за камерами и врагами (даже если они скрылись из виду), а также просто обозначать точки интереса.
 
 Если в вашей команде есть боты, удерживайте эту кнопку, чтобы отдать им <BigEm>ПРИКАЗ</>. В зависимости от ситуации доступны разные приказы.
@@ -4939,7 +4939,7 @@ ST_cra2_Objectives/obj_cra2_find_pilot,Найти пилота,
 ST_cra2_Objectives/obj_cra2_take_off,взлететь,
 ST_cra2_Objectives/obj_cra2_unlock_jet,Открыть самолет,
 ST_cra3_Objectives/obj_cra3_dish_order,Заказ блюд,
-ST_cra3_Objectives/obj_cra3_enter_building,Войдите в здание.,
+ST_cra3_Objectives/obj_cra3_enter_building,Войдите в здание.,Войти в здание
 ST_cra3_Objectives/obj_cra3_jump_cliff,Спрыгнуть с обрыва,
 ST_cra3_Objectives/obj_cra3_take_laptop,Взять ноутбук,
 ST_cra3_Objectives/task_cra3_jump_cliff,Добраться до обрыва и спрыгнуть,
@@ -4973,7 +4973,7 @@ ST_cra5_Objectives/obj_cra5_move_out,Выдвинуться,
 ST_cra5_Objectives/obj_cra5_take_the_briefcase,Забрать портфель,
 ST_cra5_Objectives/obj_cra5_run_to_the_exit,Добежать до выхода,
 ST_cra5_Objectives/obj_cra5_search_the_house,Обыскать дом,
-ST_cra5_Objectives/obj_cra5_take_the_cash,Возьмите наличные.,
+ST_cra5_Objectives/obj_cra5_take_the_cash,Возьмите наличные.,Взять наличные
 ST_cra5_Objectives/obj_cra5_escape,Пора бежать,
 ST_cracker_Variations/GenericHeister_ID_cracker_m1_landing_1_All_1,"(приземляется на ноги, охнув)",
 ST_cracker_Variations/StoryCharacter2DRadio_ID_cracker_m4_sub_visual3_1_All_1,...быстрее.,
@@ -5723,7 +5723,7 @@ ST_csm_Variations/GenericPlanner_ID_csm_dist_fail_1_All_3,Вас заметил�
 ST_csm_Variations/GenericPlanner_ID_csm_dist_fail_1_All_2,Вас обнаружили! Быстро валите!,
 ST_csm_Variations/GenericPlanner_ID_csm_c4_storage_1_All_3,"Вы привлечете к себе внимание, если будете там торчать. Уходите на склад.",
 ST_csm_Variations/GenericBoss_ID_csm_escape_stealth_2_All_1,"Знаешь, а твой фургон — он вообще-то уродский.",
-ST_cub_Objectives/obj_cub_1_zipline_title,Погрузиться на корабль,
+ST_cub_Objectives/obj_cub_1_zipline_title,Погрузиться на корабль,Подняться на борт
 ST_cub_Objectives/obj_cub_13_bomb_timer,Таймер бомбы: ,
 ST_cub_Objectives/obj_cub_8_cargo_title,Планы поменялись,
 ST_cub_Objectives/obj_cub_7_confirm_authenticity,Проверить штрихкод,
@@ -5853,7 +5853,7 @@ ST_cup_Objectives/obj_cup_attach_zipline,Закрепить трос и спус
 ST_cup_Objectives/obj_cup_blow_main_gate,Разнести главные ворота,
 ST_cup_Objectives/obj_cup_set_c4_wall,Взорвать стену зала техобслуживания,
 ST_cup_Objectives/obj_reconTheHand_Clean_Window,Мыть окно и слушать,
-ST_cup_Objectives/obj_cup_clear_roof,Зачистите крышу.,
+ST_cup_Objectives/obj_cup_clear_roof,Зачистите крышу.,Зачистить крышу
 ST_cup_Objectives/obj_cup_disable_electricity,Отключить подачу питания к решеткам,
 ST_cup_Objectives/obj_cup_enter_depo,Войти в хранилище,
 ST_cup_Objectives/obj_cup_escape,Скрыться,
@@ -5874,28 +5874,28 @@ ST_cup_Objectives/obj_ReconBasement_Get_Out,Выбраться из хранил
 ST_cup_Objectives/obj_cup_get_golf,Перелезть через флагшток,
 ST_cup_Objectives/obj_cup_find_control,Добраться до комнаты управления,
 ST_cup_Objectives/obj_ReconBasement_Depot,Добраться до хранилища,
-ST_cup_Objectives/obj_cup_get_to_roof,Заберитесь на крышу.,
-ST_cup_Objectives/obj_cup_hide,Прячемся!,
+ST_cup_Objectives/obj_cup_get_to_roof,Заберитесь на крышу.,Подняться на крышу
+ST_cup_Objectives/obj_cup_hide,Прячемся!,Спрятаться!
 ST_cup_Objectives/obj_cup_land_on_depot,Приземлиться на хранилище,
 ST_cup_Objectives/obj_cup_land,Приземлиться на крышу,
 ST_cup_Objectives/obj_ReconTheHand_Listen,Подслушать разговор ,
-ST_cup_Objectives/obj_cup_load_5,Загрузите пятый грузовик.,
-ST_cup_Objectives/obj_cup_load_1,Загрузите первый грузовик.,
-ST_cup_Objectives/obj_cup_load_4,Загрузите четвертый грузовик.,
-ST_cup_Objectives/obj_cup_load_2,Загрузите второй грузовик.,
-ST_cup_Objectives/obj_cup_load_3,Загрузите третий грузовик.,
+ST_cup_Objectives/obj_cup_load_5,Загрузите пятый грузовик.,Загрузить пятый грузовик
+ST_cup_Objectives/obj_cup_load_1,Загрузите первый грузовик.,Загрузить первый грузовик
+ST_cup_Objectives/obj_cup_load_4,Загрузите четвертый грузовик.,Загрузить четвертый грузовик
+ST_cup_Objectives/obj_cup_load_2,Загрузите второй грузовик.,Загрузить второй грузовик
+ST_cup_Objectives/obj_cup_load_3,Загрузите третий грузовик.,Загрузить третий грузовик
 ST_cup_Objectives/obj_ReconBasement_Locate_Offices,Найти кабинеты,
 ST_cup_Objectives/obj_ReconGliders_Gate,Пройти через ворота,
-ST_cup_Objectives/obj_cup_pack_glider,Запаковать планеры,
-ST_cup_Objectives/obj_cup_place_c4_skylight,Установите C4 на стеклянной крыше.,
+ST_cup_Objectives/obj_cup_pack_glider,Запаковать планеры,Упаковать планеры
+ST_cup_Objectives/obj_cup_place_c4_skylight,Установите C4 на стеклянной крыше.,Установить C4 на стеклянной крыше
 ST_cup_Objectives/obj_cup_set_c4_flagpole,Установить C4 на флагштоке,
-ST_cup_Objectives/obj_cup_set_charges,Взорвите заряды.,
+ST_cup_Objectives/obj_cup_set_charges,Взорвите заряды.,Взорвать заряды
 ST_cup_Objectives/obj_cup_blow_main_Entrance,Установить взрывчатку у главного входа,
 ST_cup_Objectives/obj_ReconTheHand_MoveJanitorCartCloserToSheriff,Подметать пол и подслушивать,
 ST_cup_Objectives/obj_ReconGliders_Picture_Shifts,Сделать фото графика смен,
 ST_cup_Objectives/obj_ReconGliders_Picture_Skydome,Сделать фото купола,
 ST_cup_Objectives/obj_ReconGliders_Picture_Towers,Сделать фото башен,
-ST_cup_Objectives/obj_cup_tunnel_collapsed,Тоннель уничтожен. Дождитесь инструкций,
+ST_cup_Objectives/obj_cup_tunnel_collapsed,Тоннель уничтожен. Дождитесь инструкций,Тоннель уничтожен. Дождаться инструкций
 ST_cup_Objectives/obj_cup_tunnel_stealth,Пробраться в туннель через зал техобслуживания,
 ST_cup_Objectives/obj_cup_blow_main_entrance_again,Использовать больше взрывчатки C4 у главного входа,
 ST_cup_Objectives/obj_cup_activate_depot,Использовать руку Короля,
@@ -13335,10 +13335,10 @@ ST_dds_Missions/meta_dds_finalmodal_selldogs_description,"Вы <BigEm>ОЧЕНЬ
 <BigEm>ХАН</> вышел на тропу войны и <BigEm>ВРАЖДЕБНО ОТНОСИТСЯ</> к <BigEm>ДРУГИМ БАНДАМ</>.
 
 Дракопсы дали Хану легендарную силу — <RedEm>УРОВЕНЬ АРМИИ ХАНА ПОВЫСИЛСЯ</>.",
-ST_dds_Objectives/obj_dds_enter_control_room,Проникните в диспетчерскую.,
+ST_dds_Objectives/obj_dds_enter_control_room,Проникните в диспетчерскую.,Проникнуть в диспетчерскую
 ST_dds_Objectives/obj_dds_get_to_vaults,Войти в хранилище,
 ST_dds_Objectives/obj_dds_maintenance_room,Эвакуироваться через зал техобслуживания,
-ST_dds_Objectives/obj_dds_find_way_lobby,Найдите путь в вестибюль.,
+ST_dds_Objectives/obj_dds_find_way_lobby,Найдите путь в вестибюль.,Найти путь в вестибюль
 ST_dds_Objectives/obj_dds_tunnel_end,Найти выход через туннели,
 ST_dds_Objectives/obj_dds_find_gear_bag,Найти веревочное снаряжение,
 ST_dds_Objectives/obj_dds_find_dogs,Найти двух дракопсов,
@@ -13349,24 +13349,24 @@ ST_dds_Objectives/obj_dds_wait_c4_heli,Отправиться к окну на �
 ST_dds_Objectives/obj_dds_find_control_room,Найти комнату управления,
 ST_dds_Objectives/obj_dds_get_to_tunnels,Пробраться в туннели,
 ST_dds_Objectives/obj_dds_loot_into_crate,Погрузить добычу в ящик,
-ST_dds_Objectives/obj_dds_open_gate,Откройте ворота.,
-ST_dds_Objectives/obj_dds_open_skylight,Откройте стеклянную крышу.,
+ST_dds_Objectives/obj_dds_open_gate,Откройте ворота.,Открыть ворота
+ST_dds_Objectives/obj_dds_open_skylight,Откройте стеклянную крышу.,Открыть стеклянную крышу
 ST_dds_Objectives/obj_dds_get_C4,Забрать C4,
 ST_dds_Objectives/obj_dds_deposit_loot,Поместить любую добычу в лодку и скрыться,
 ST_dds_Objectives/obj_dds_place_C4,Установить C4,
 ST_dds_Objectives/obj_dds_blow_doors,Установить C4 на двери,
 ST_dds_Objectives/obj_dds_get_security_hall,Войти в хранилище,
 ST_dds_Objectives/obj_dds_push_statues,Протолкнуть псов к лифту,
-ST_dds_Objectives/obj_dds_rappel,Спуститесь по веревке.,
-ST_dds_Objectives/obj_dds_set_ropes,Прикрепите веревки.,
+ST_dds_Objectives/obj_dds_rappel,Спуститесь по веревке.,Спуститься по веревке
+ST_dds_Objectives/obj_dds_set_ropes,Прикрепите веревки.,Прикрепить веревки
 ST_dds_Objectives/obj_dds_knock,Дать сигнал человеку на той стороне ,
 ST_dds_Objectives/obj_dds_start_lift,Запустить лифт,
-ST_dds_Objectives/obj_dds_take_cover,Найдите укрытие.,
+ST_dds_Objectives/obj_dds_take_cover,Найдите укрытие.,Найти укрытие
 ST_dds_Objectives/obj_dds_take_control_keys,Взять ключи,
 ST_dds_Objectives/obj_dds_escape_motobikes,Пора бежать на мотоцикле,
 ST_dds_Objectives/obj_dds_wait_bonus_helicopter,Дождаться дополнительного вертолета,
-ST_dds_Objectives/obj_dds_wait_helicopter_1,Дождитесь первого вертолета.,
-ST_dds_Objectives/obj_dds_wait_helicopter_2,Дождитесь второго вертолета.,
+ST_dds_Objectives/obj_dds_wait_helicopter_1,Дождитесь первого вертолета.,Дождаться первого вертолета
+ST_dds_Objectives/obj_dds_wait_helicopter_2,Дождитесь второго вертолета.,Дождаться второго вертолета
 ST_dds_Variations/GenericPlanner_ID_dds_used_key_2_All_1,КРУТО... поехали.,
 ST_dds_Variations/GenericHeister_ID_dds_yard_ambush1_1_All_1,А-а-а!,
 ST_dds_Variations/GenericPlanner_ID_dds_intel_vault_a_1_All_1,"По информации от нашего человека, статуи в хранилище А.",
@@ -13947,13 +13947,13 @@ ST_Debrief/umg_turfwar_loot_gained,Получено: {Loot},
 ST_def_Objectives/obj_def_Protect_the_Captain,Помочь Тачдауну,
 ST_def_Objectives/obj_def_kill_remaining,Устранить оставшихся нападавших,
 ST_def_Objectives/obj_def_follow_touchdown,Следовать за Тачдауном,
-ST_def_Objectives/obj_def_Find_the_Captain,Найдите Тачдауна,
+ST_def_Objectives/obj_def_Find_the_Captain,Найдите Тачдауна,Найти Тачдауна
 ST_def_Objectives/obj_def_03_regain_control_warehouse,Удержать контроль над складом,
 ST_def_Objectives/obj_def_revive_teammate,Поднять товарища,
 ST_def_Objectives/obj_def_protect_the_candy,Защитить «конфетки»,
-ST_def_Objectives/obj_def_1_protect,Защищайте наличные.,
+ST_def_Objectives/obj_def_1_protect,Защищайте наличные.,Защитить наличные
 ST_def_Objectives/obj_def_survive,Защитить склад,
-ST_def_Objectives/obj_def_talk_to_captain,Поговорите с Тачдауном,
+ST_def_Objectives/obj_def_talk_to_captain,Поговорите с Тачдауном,Поговорить с Тачдауном
 ST_def_Objectives/obj_def_02_Candy_Protected,«Конфетки» защищены,
 ST_def_Objectives/obj_def_2_regroup,Пора перегруппироваться,
 ST_def_Objectives/obj_def_touchdown_died,Тачдаун выбыл из игры,
@@ -14044,7 +14044,7 @@ ST_dis_Objectives/obj_dis_com_find_whitey_dealing,Найти Уайти со с�
 ST_dis_Objectives/obj_dis_com_find_whitey,Найти Уайти!,
 ST_dis_Objectives/obj_dis_com_way_inside,Найти способ попасть в клуб,
 ST_dis_Objectives/obj_dis_com_get_ww,Добраться до Уайлдера и Уинстона,
-ST_dis_Objectives/obj_dis_com_get_escape_car,"Сядьте в машину, предназначенную для бегства.",
+ST_dis_Objectives/obj_dis_com_get_escape_car,"Сядьте в машину, предназначенную для бегства.","Сесть в машину, предназначенную для бегства"
 ST_dis_Objectives/obj_dis_arm_load_boat,Погрузить сумки с АК-47 в лодку,
 ST_dis_Objectives/obj_dis_arm_locate_red,Найти Красную леди,
 ST_dis_Objectives/obj_dis_com_pick_disk,Забрать диск,
@@ -14052,9 +14052,9 @@ ST_dis_Objectives/obj_dis_com_retrieve_pistols,Найти спрятанные �
 ST_dis_Objectives/obj_dis_com_kill_red,Устранить Красную леди,
 ST_dis_Objectives/obj_dis_arm_take_c4,Взять С4,
 ST_dis_Objectives/obj_dis_com_wait_escape_car,Дождаться машины для побега,
-ST_dis_Objectives/obj_dis_com_wait_escape_plan,Дождитесь плана побега.,
+ST_dis_Objectives/obj_dis_com_wait_escape_plan,Дождитесь плана побега.,Дождаться плана побега
 ST_DLSS/Auto,Авто DLSS,
-ST_DLSS/Balanced,Сбалансированное DLSS,
+ST_DLSS/Balanced,Сбалансированное DLSS,Баланс DLSS
 ST_DLSS/Performance,Производительность DLSS,
 ST_DLSS/Quality,Качество DLSS,
 ST_DLSS/UltraPerformance,Ультрапроизводительность DLSS,
@@ -14314,10 +14314,10 @@ ST_Entitlements/entitlement_newcontent_warning_description,"Часть мате�
 Если вы продолжите, то недоступные материалы будут удалены из файла сохранения.",
 ST_Entitlements/entitlement_newcontent_warning_title,Материалы недоступны,
 ST_Entitlements/entitlement_newcontent_restart_description,"Вам доступны новые материалы. Откройте их при следующих прохождениях кампании или воспользуйтесь функцией перезапуска кампании, чтобы сразу получить доступ к материалам.",
-ST_esc_Objectives/obj_esc_defend,Защищайтесь.,
+ST_esc_Objectives/obj_esc_defend,Защищайтесь.,Защищать себя
 ST_esc_Objectives/obj_esc_hide,Спрятаться в мотеле,
 ST_esc_Objectives/obj_esc_2_secure_loot,Погрузить добычу в фургон,
-ST_esc_Objectives/obj_esc_1_protect,Защищайте босса.,
+ST_esc_Objectives/obj_esc_1_protect,Защищайте босса.,Защищать босса
 ST_esc_Variations/GenericHeister_ID_esc_st2_chopper_1_All_1,Ненавижу крушения вертолетов.,
 ST_esc_Variations/GenericHeister_ID_esc_st2_chopper_1_All_2,"Кажется, мы разбились...",
 ST_esc_Variations/GenericHeister_ID_esc_bl2_chopper_4_All_1,А-а-а-а-а...,
@@ -15211,17 +15211,17 @@ ST_ftd_Missions/meta_ftd_waitfordecryption_task,"Подождать, пока д
 ST_ftd_Missions/meta_ftd_hirewiz_description,Виз на свободе. Пора найти ему применение.,
 ST_ftm_Objectives/obj_ftm_free_witness,Перехватить свидетеля,
 ST_ftm_Objectives/obj_ftm_2_kill_guards,Устранить охранников,
-ST_ftm_Objectives/obj_ftm_1_enter_building,Войдите в здание.,
+ST_ftm_Objectives/obj_ftm_1_enter_building,Войдите в здание.,Войти в здание
 ST_ftm_Objectives/obj_ftm_11_Escort_Khan,Сопроводить человека Хана к точке эвакуации,
 ST_ftm_Objectives/obj_ftm_escort_mozart,Сопроводить Моцарта к фургону для побега,
 ST_ftm_Objectives/obj_ftm_7_Get_the_pilot_out,Сопроводить пилота к точке эвакуации,
-ST_ftm_Objectives/obj_ftm_escort_witness,Сопроводите свидетеля до фургона,
+ST_ftm_Objectives/obj_ftm_escort_witness,Сопроводите свидетеля до фургона,Сопроводить свидетеля до фургона
 ST_ftm_Objectives/obj_ftm_Find_the_captain,Найти Тачдауна,
 ST_ftm_Objectives/obj_ftm_8_Free_Khans_Guy,Освободить человека Хана ,
 ST_ftm_Objectives/obj_ftm_free_mozart,Освободить Моцарта,
 ST_ftm_Objectives/obj_ftm_9_Free_the_captain,Освободить Тачдауна,
 ST_ftm_Objectives/obj_ftm_8_Free_pilot,Освободить пилота,
-ST_ftm_Objectives/obj_ftm_2_free_heister,Освободите члена своей группы.,
+ST_ftm_Objectives/obj_ftm_2_free_heister,Освободите члена своей группы.,Освободить члена своей группы
 ST_ftm_Objectives/obj_ftm_Get_Khans_Guy,Забрать человека Хана,
 ST_ftm_Objectives/obj_ftm_Get_the_captain_out,Вытащить Тачдауна,
 ST_ftm_Objectives/obj_ftm_4_get_out_of_highway,Покинуть шоссе,
@@ -15565,20 +15565,20 @@ ST_generic_Missions/meta_generic_ami-gang_description2,"Вы завели фур
 ST_generic_Missions/meta_generic_ami-gang_description1,"Ваши соперники сумели отомстить: вы попались в ловушку, прежде чем смогли добраться до безопасного места.
 Продержитесь, пока не прибудет подкрепление!",
 ST_ghr_Interactives/action_ghr_morphine_boss,Отнесите морфий боссу.,
-ST_ghr_Objectives/obj_ghr_6a_hook,Прикрепите крюк.,
+ST_ghr_Objectives/obj_ghr_6a_hook,Прикрепите крюк.,Прикрепить крюк
 ST_ghr_Objectives/obj_ghr_8a_escape,Скрыться,
-ST_ghr_Objectives/obj_ghr_7a_find_boat,Найдите лодку.,
-ST_ghr_Objectives/obj_ghr_2a_find_doc,Найдите документ.,
+ST_ghr_Objectives/obj_ghr_7a_find_boat,Найдите лодку.,Найти лодку
+ST_ghr_Objectives/obj_ghr_2a_find_doc,Найдите документ.,Найти документ
 ST_ghr_Objectives/obj_ghr_2b_lodge_boxes,Доставить все контейнеры в охотничий домик,
 ST_ghr_Objectives/obj_ghr_2b_lodge,Доставить босса в охотничий домик,
-ST_ghr_Objectives/obj_ghr_6b_escape,Помогите боссу сбежать.,
-ST_ghr_Objectives/obj_ghr_3a_morphine,Добудьте морфий.,
-ST_ghr_Objectives/obj_ghr_4a_morphine_boss,Отнесите морфий боссу.,
-ST_ghr_Objectives/obj_ghr_5a_guard_boss,Охраняйте босса.,
-ST_ghr_Objectives/obj_ghr_5b_hold,Обороняйте дом.,
+ST_ghr_Objectives/obj_ghr_6b_escape,Помогите боссу сбежать.,Помочь боссу сбежать
+ST_ghr_Objectives/obj_ghr_3a_morphine,Добудьте морфий.,Добыть морфий
+ST_ghr_Objectives/obj_ghr_4a_morphine_boss,Отнесите морфий боссу.,Отнести морфий боссу
+ST_ghr_Objectives/obj_ghr_5a_guard_boss,Охраняйте босса.,Охранять босса
+ST_ghr_Objectives/obj_ghr_5b_hold,Обороняйте дом.,Оборонять дом
 ST_ghr_Objectives/obj_ghr_1_jump,Прыжок,
 ST_ghr_Objectives/obj_ghr_3b_liver,Поместить печень в камин,
-ST_ghr_Objectives/obj_ghr_4b_regroup,Перегруппируйтесь внутри дома.,
+ST_ghr_Objectives/obj_ghr_4b_regroup,Перегруппируйтесь внутри дома.,Перегруппироваться внутри дома
 ST_ghr_Variations/StoryCharacter2D_ID_ghr_intro2_1_All_1, ,
 ST_ghr_Variations/StoryCharacter2D_ID_ghr_intro5_1_All_1,1000 feet!,
 ST_ghr_Variations/StoryCharacter2D_ID_ghr_plane4_1_All_1,300...,
@@ -17057,7 +17057,7 @@ ST_hie_Variations/GenericPlanner_ID_hie_kill_carlos_1_All_3,Карлос до с
 ST_hie_Variations/GenericPlanner_ID_hie_carlos_reminder_1_All_2,"Убейте Карлоса, убейте эту тварь!",
 ST_hie_Variations/GenericPlanner_ID_hie_truck_open_stealth_1_All_3,Ищите в кузове фургонов.,
 ST_hie_Variations/GenericPlanner_ID_hie_fireworks_stealth_1_All_1,Ищите фейерверки в грузовиках.,
-ST_hie_Variations/GenericPlanner_ID_hie_zipline_2_All_1,Чикосы там повсюду. Хьело небось до сих пор параноит после недавнего. По мосту лучше не ходить.,
+ST_hie_Variations/GenericPlanner_ID_hie_zipline_2_All_1,Чикосы там повсюду. Хьело небось до сих пор параноит после недавнего. По мосту лучше не ходить.,Чикос там повсюду. Хьело небось до сих пор параноит после недавнего. По мосту лучше не ходить.
 ST_hie_Variations/GenericPlanner_ID_hie_bridge_loud_reminder_1_All_3,Нужно пересечь канал и добраться до сцены! Погнали!,
 ST_hie_Variations/GenericPlanner_ID_hie_cassette_reminder_1_All_1,"Вырубите его музон, пока они вас не затоптали!",
 ST_hie_Variations/GenericPlanner_ID_hie_cassette_reminder_1_All_2,Давайте уже! Ставьте кассету!,
@@ -17067,7 +17067,7 @@ ST_hie_Variations/GenericPlanner_ID_hie_fireworks_stealth_reminder_1_All_1,На�
 ST_hie_Variations/GenericPlanner_ID_hie_truck_key_early_loud_1_All_3,"Вы что, замочили водилу за ключ, который непонятно что открывает?",
 ST_hie_Variations/GenericPlanner_ID_hie_kill_carlos_1_All_2,Про Карлоса не забудьте! Эту шавку по-любому нужно валить!,
 ST_hie_Variations/GenericPlanner_ID_hie_fireworks_loud_reminder_1_All_2,Про фейерверки не забывайте. Они вам понадобятся!,
-ST_hie_Variations/GenericPlanner_ID_hie_leave_reminder_1_All_3,"Вы что, решили поболтать с чикосами, замочив их босса? Валим отсюда!",
+ST_hie_Variations/GenericPlanner_ID_hie_leave_reminder_1_All_3,"Вы что, решили поболтать с чикосами, замочив их босса? Валим отсюда!","Вы что, решили поболтать с чикос, замочив их босса? Валим отсюда!"
 ST_hie_Variations/GenericPlanner_ID_hie_no_more_keys_1_All_1,Теперь ключи от фургонов вы вряд ли отыщете.,
 ST_hie_Variations/GenericPlanner_ID_hie_escape_1_All_2,Водитель скоро за вам приедет.,
 ST_hie_Variations/GenericPlanner_ID_hie_no_fire_stealth_1_All_2,"Пусто. Значит, в каком-то другом.",
@@ -17140,7 +17140,7 @@ ST_hie_Variations/GenericPlanner_ID_hie_truck_stealth_1_All_3,"Хм… Гото�
 ST_hie_Variations/GenericPlanner_ID_hie_zipline_reminder_1_All_2,Я местному рабочему сотку занес пару дней назад. Он обещал нам наладить трос через канал. Где-то на крыше должен быть.,
 ST_hie_Variations/GenericPlanner_ID_hie_debrief_1_All_2,Вы реально спасли мою задницу. Приятно иметь с вами дело.,
 ST_hie_Variations/GenericPlanner_ID_hie_buzzsaw_loud_1_All_3,"Тут где-то недалеко был строительный магазин. Поищите там, чем бы открыть фургоны.",
-ST_hie_Variations/GenericPlanner_ID_hie_boat_1_All_2,"Я искал другой способ туда пробраться, то чикосы Хьело там всё патрулируют.",
+ST_hie_Variations/GenericPlanner_ID_hie_boat_1_All_2,"Я искал другой способ туда пробраться, то чикосы Хьело там всё патрулируют.","Я искал другой способ туда пробраться, то чикос Хьело там всё патрулируют."
 ST_hie_Variations/GenericPlanner_ID_hie_truck_key_early_stealth_1_All_2,"Интересно, что он открывает.",
 ST_hie_Variations/GenericPlanner_ID_hie_such_fire_stealth_3_All_1,"Если бы Карлос своей жопой всё не заслонял, было бы оптимально. Ничего, обоих пришьем.",
 ST_hie_Variations/GenericPlanner_ID_hie_shooting_1_All_2,"Пока он выше вас, стрелять бесполезно! Нужно его спустить на один с вами уровень!",
@@ -17211,7 +17211,7 @@ ST_hie_Variations/GenericPlanner_ID_hie_pyro_hint_1_All_4,Вам нужно хо
 ST_hie_Variations/GenericPlanner_ID_hie_zipline_3_All_1,"Осмотритесь. Должен быть другой способ туда попасть, не привлекая внимания. Может, по тросам.",
 ST_hie_Variations/GenericPlanner_ID_hie_debrief_1_All_6,Десять из десяти. Я бы пересмотрел.,
 ST_hie_Variations/GenericPlanner_ID_hie_sabotaged_1_All_4,"Спасибо. Сил моих не было это говно слушать! А бандиты его, похоже, вообще утратили волю к сражению.",
-ST_hie_Variations/GenericPlanner_ID_hie_cassette_1_All_1,Эта его сраная музыка почему-то очень привлекает чикосов. Поставьте-ка мою кассету!,
+ST_hie_Variations/GenericPlanner_ID_hie_cassette_1_All_1,Эта его сраная музыка почему-то очень привлекает чикосов. Поставьте-ка мою кассету!,Эта его сраная музыка почему-то очень привлекает чикос. Поставьте-ка мою кассету!
 ST_hie_Variations/GenericPlanner_ID_hie_hit_stage_reminder_1_All_2,"Пламя и так разойдется, но подкинуть дровишек не помешает.",
 ST_hie_Variations/GenericPlanner_ID_hie_truck_key_loud_1_All_2,Ключ вам сэкономит время. Молодцы. Открывайте фургоны уже!,
 ST_hie_Variations/GenericPlanner_ID_hie_pyro_hit_1_All_6,"Пиздец, наверное, как больно.",
@@ -17224,7 +17224,7 @@ ST_hie_Variations/GenericPlanner_ID_hie_clipboard_found_loud_1_All_1,Вы сэк
 ST_hie_Variations/GenericPlanner_ID_hie_buzzsaw_collect_loud_1_All_2,Пойдет! Тащите к фургону.,
 ST_hie_Variations/GenericPlanner_ID_hie_no_fire_loud_1_All_3,"Тут пусто, ищем дальше.",
 ST_hie_Variations/GenericPlanner_ID_hie_such_fire_loud_1_All_2,Фейерверков достаточно!,
-ST_hie_Variations/GenericPlanner_ID_hie_cassette_1_All_3,Чикосов бодрит дурацкая музыка Хьело. Поставьте-ка лучше мою кассету!,
+ST_hie_Variations/GenericPlanner_ID_hie_cassette_1_All_3,Чикосов бодрит дурацкая музыка Хьело. Поставьте-ка лучше мою кассету!,Чикос бодрит дурацкая музыка Хьело. Поставьте-ка лучше мою кассету!
 ST_hie_Variations/GenericPlanner_ID_hie_buzzsaw_loud_reminder_1_All_2,"Загляните в автосервис. Там найдется, чем расковырять фургоны!",
 ST_hie_Variations/GenericPlanner_ID_hie_no_more_keys_1_All_2,"Водилы уже свалили, а ключи были у них.",
 ST_hie_Variations/GenericPlanner_ID_hie_stage_on_fire_1_All_2,"Ему пришлось слезть со сцены, но он продолжает прятаться!",
@@ -17399,8 +17399,8 @@ ST_HUD/umg_input_prompt_obj_not_completed,ЦЕЛЬ НЕ ВЫПОЛНЕНА,
 ST_HUD/ObjectiveUpdated,Задача обновлена,
 ST_HUD/OutOfAmmo,Нет патронов,
 ST_HUD/umg_message_picked_up,Подобрали,
-ST_HUD/engine_stats_network,Задержка: {PingValue} мс Потеря пакетов: {PacketLoss}%  Джиттер: {JitterValue} мс,
-ST_HUD/engine_stats_ping,Задержка: {Value} мс,
+ST_HUD/engine_stats_network,Задержка: {PingValue} мс Потеря пакетов: {PacketLoss}%  Джиттер: {JitterValue} мс,Пинг: {PingValue} мс Потеря пакетов: {PacketLoss}%  Джиттер: {JitterValue} мс
+ST_HUD/engine_stats_ping,Задержка: {Value} мс,Пинг: {Value} мс
 ST_HUD/umg_subtitle_name,Организатор,
 ST_HUD/input_hints_press,Нажмите,
 ST_HUD/umg_securityCamera_previous,Пред.,
@@ -17466,7 +17466,7 @@ ST_InputActions/input_NextWeapon,Следующее оружие,
 ST_InputActions/input_OpenRadialMenu,Открыть круговое меню,
 ST_InputActions/input_MenuThumbstickRight,Камера,
 ST_InputActions/input_MenuPause,Пауза,
-ST_InputActions/input_Ping,Задержка,
+ST_InputActions/input_Ping,Задержка,Отметка
 ST_InputActions/input_PreviousCamera,Предыдущая камера,
 ST_InputActions/input_MenuCategoryLeft,Предыдущая категория меню,
 ST_InputActions/input_MenuSubcategoryLeft,Предыдущая подкатегория меню,
@@ -18628,7 +18628,7 @@ ST_Lobby/lobby_code_description,Хост может найти код в лоб�
 ST_Lobby/join_by_code_failed_title,Не удалось присоединиться лобби,
 ST_Lobby/umg_lobby_waiting_for_players,Ожидание игроков,
 ST_Lobby/join_by_code_failed_description,"Не удалось подключиться к лобби. Возможно, оно заполнено, недоступно, или вы ввели неверный код. Попробуйте еще раз.",
-ST_Lobby/umg_lobby_pingwarning,"У вас высокая задержка. Скорее всего, производительность будет снижена.",
+ST_Lobby/umg_lobby_pingwarning,"У вас высокая задержка. Скорее всего, производительность будет снижена.","У вас высокий пинг. Скорее всего, производительность будет снижена."
 ST_Locations/area_store_water_threat,"Тут был
 чувак из
 «Мыслить как преступник».",
@@ -18948,8 +18948,8 @@ ST_MainMenu/umg_mainmenu_campaign_title,Кампания,
 ST_MainMenu/umg_main_new_campaign_cancel,Отмена,
 ST_MainMenu/umg_main_connection_error_failure,Сбой подключения.,
 ST_MainMenu/umg_main_connection_lost,Соединение прервано,
-ST_MainMenu/umg_main_connection_error_timeout,Задержка соединения.,
-ST_MainMenu/umg_main_connection_error_lost,Соединение прервано.,
+ST_MainMenu/umg_main_connection_error_timeout,Задержка соединения.,Тайм-аут соединения.
+ST_MainMenu/umg_main_connection_error_lost,Соединение прервано.,Соединение было потеряно.
 ST_MainMenu/umg_main_continue,Продолжить,
 ST_MainMenu/umg_main_campaign-resume,Продолжить кампанию,
 ST_MainMenu/umg_main_campaign-resumedebug,Продолжить техническую кампанию,
@@ -24124,7 +24124,7 @@ ST_ops_Objectives/obj_ops_28_clear_zone,Очистить посадочную п
 ST_ops_Objectives/obj_ops_20_take_explosives,Забрать взрывчатку C4,
 ST_ops_Objectives/obj_ops_05_take_data,Забрать ноутбук,
 ST_ops_Objectives/obj_ops_03_setup_laptop,Разместить ноутбук для взлома,
-ST_ops_Objectives/obj_ops_15_destoy_tank,"Уничтожить танк, используя любую взрывчатку",
+ST_ops_Objectives/obj_ops_15_destoy_tank,"Уничтожить танк, используя любую взрывчатку",Уничтожить танк любой взрывчаткой
 ST_ops_Objectives/obj_ops_19_escape_tunnel,Уйти через туннель,
 ST_ops_Objectives/obj_ops_29_escape,Сбежать!,
 ST_ops_Objectives/obj_ops_24_find_way_inside,Найти способ попасть в хранилище,
@@ -24137,7 +24137,7 @@ ST_ops_Objectives/obj_ops_02_command_post,Найти командный пунк
 ST_ops_Objectives/obj_ops_07_locate_gate,Найти управление внешними воротами,
 ST_ops_Objectives/obj_ops_04_hacking,Поддерживать процесс взлома,
 ST_ops_Objectives/obj_ops_18_move_missile_inside,Переместить ракету внутрь,
-ST_ops_Objectives/obj_ops_21_regroup,Возвратиться на базу для перегруппировки,
+ST_ops_Objectives/obj_ops_21_regroup,Возвратиться на базу для перегруппировки,Вернуться на базу для перегруппировки
 ST_ops_Objectives/obj_ops_14_rotate_turntable,Перевести железнодорожную стрелку,
 ST_ops_Objectives/obj_ops_22_sabotage,Испортить топливные резервуары,
 ST_ops_Objectives/obj_ops_13_transport_missile,Аккуратно перевезти ракету по рельсам,
@@ -24146,7 +24146,7 @@ ST_ops_Objectives/obj_ops_06_throw_data,Сбросить ноутбук в ве�
 ST_ops_Objectives/obj_ops_25_loot,Вынести сокровища,
 ST_ops_Objectives/obj_ops_16_transport_into_tunnel,Доставить ракету в туннель,
 ST_ops_Objectives/obj_ops_09_use_code,Открыть ворота по коду {code},
-ST_ops_Objectives/obj_ops_27_wait_for_heli,"Дождитесь вертолета, чтобы сбежать.",
+ST_ops_Objectives/obj_ops_27_wait_for_heli,"Дождитесь вертолета, чтобы сбежать.","Дождаться вертолета, чтобы сбежать"
 ST_ops_Objectives/obj_ops_12_wait_for_platform,Дождаться прибытия платформы,
 ST_ops_Objectives/obj_ops_17_wait_crew,Дождаться группы в туннеле,
 ST_ops_Variations/GenericPlanner_ID_ops_override_1_All_2,Включайте ручное управление.,
@@ -24598,7 +24598,7 @@ ST_OptionalObjectives/umg_obj_optional_done,{Text} (Сделано),
 ST_OptionalObjectives/umg_obj_optional_failed,{Text} (Провалено),
 ST_pam_Objectives/obj_grs_1_escape,Бежать из города,
 ST_pam_Objectives/obj_pam_1_escape_zone,Добраться до фургона незамеченными,
-ST_pam_Objectives/obj_grs_2_stay_alive,Оставайтесь в живых.,
+ST_pam_Objectives/obj_grs_2_stay_alive,Оставайтесь в живых.,Остаться в живых
 ST_pam_Variations/GenericHeister_ID_pam_start3_timer_1_All_1,"Молодец, парень... Я скоро буду.",
 ST_pam_Variations/GenericHeister_ID_pam_ambulance_1_All_1,Скорая уже тут?!,
 ST_pam_Variations/GenericPlanner_ID_pam_start1_1_All_3,Все хорошо?,
@@ -25638,7 +25638,7 @@ ST_rdr_Objectives/obj_rdr_crack_vault,Вломиться в хранилище,
 ST_rdr_Objectives/obj_rdr_run_loot_van,Погрузить добычу в фургон,
 ST_rdr_Objectives/obj_rdr_sneak_loot_van,Погрузить добычу в фургон незамеченными,
 ST_rdr_Objectives/obj_rdr_place_smoke_screen,Создать дымовые завесы,
-ST_rdr_Objectives/obj_rdr_enter_bank,Войдите в банк.,
+ST_rdr_Objectives/obj_rdr_enter_bank,Войдите в банк.,Войти в банк
 ST_rdr_Objectives/obj_rdr_finnish_vault_drilling,Закончить сверлить хранилище,
 ST_rdr_Objectives/obj_rdr_get_gear,Получить снаряжение,
 ST_rdr_Objectives/obj_rdr_hold_positions,Держать позиции,
@@ -25649,7 +25649,7 @@ ST_rdr_Objectives/obj_rdr_search_computers_access_code,Найти в компь�
 ST_rdr_Objectives/obj_rdr_take_loot,Украсть добычу,
 ST_rdr_Objectives/obj_rdr_escape,Пора бежать,
 ST_rdr_Objectives/obj_rdr_use_code_unlock_vault,Воспользоваться кодом и разблокировать хранилище,
-ST_rdr_Objectives/obj_rdr_wait_escape_helicopter,"Дождитесь вертолета, чтобы сбежать.",
+ST_rdr_Objectives/obj_rdr_wait_escape_helicopter,"Дождитесь вертолета, чтобы сбежать.",Дождаться вертолета для побега
 ST_rdr_Objectives/obj_rdr_wait_escape_car,Дождаться фургона для побега,
 ST_rdr_Variations/GenericPlanner_ID_rdr_escape_car_back_3_All_1,10 секунд. Вперед!,
 ST_rdr_Variations/GenericPlanner_ID_rdr_4mins_1_All_1,4 минуты!,
@@ -25834,7 +25834,7 @@ ST_rob_Objective/obj_rob_6_deal_with_captains,Устранить всех кап
 ST_rob_Objective/obj_rob_1_enter_storage_unit,Войти в хранилище с помощью пропуска,
 ST_rob_Objective/obj_rob_1_enter_building,Войти в область,
 ST_rob_Objective/obj_rob_1_enter_car_dealer,Войти в автосалон,
-ST_rob_Objective/obj_rob_1_enter_club,Войдите в клуб.,
+ST_rob_Objective/obj_rob_1_enter_club,Войдите в клуб.,Войти в клуб
 ST_rob_Objective/obj_rob_1_enter_gallery,Войти в галерею,
 ST_rob_Objective/obj_rob_1_enter_gas_station,Войти на заправку,
 ST_rob_Objective/obj_rob_1_enter_store_liquor,Войти в магазин спиртных напитков,
@@ -25891,7 +25891,7 @@ ST_rob_Objective/obj_rob_2_steal_electronics,Украсть электроник
 ST_rob_Objective/obj_rob_2_steal_guns,Украсть оружие и патроны,
 ST_rob_Objective/obj_rob_2_steal_jewelry,Украсть ювелирные украшения,
 ST_rob_Objective/obj_rob_2_steal_perfumery,Украсть духи,
-ST_rob_Objective/obj_rob_9_wait_for_heli,"Дождитесь вертолета, чтобы сбежать.",
+ST_rob_Objective/obj_rob_9_wait_for_heli,"Дождитесь вертолета, чтобы сбежать.",Дождаться вертолета для побега
 ST_rob_Variations/GenericPlanner_ID_rob_hw_vandestroyed_1_All_1,Над началом стоит поработать.,
 ST_rob_Variations/GenericPlanner_ID_rob_hw_empty_1_All_1,Транспорт пуст. Идите дальше.,
 ST_rob_Variations/GenericPlanner_ID_rob_search_boxes_1_All_5,Ящики. Вам нужно пошарить в них.,
@@ -26902,7 +26902,7 @@ ST_svj_Objectives/obj_svm_14_escape,Сесть на поезд и уехать,
 ST_svj_Objectives/obj_svm_09_destroy_clues,Сжечь улики,
 ST_svj_Objectives/obj_svm_13_defend_mac,Защитить Мака    ,
 ST_svj_Objectives/obj_svm_14b_escort,Сопроводить Мака на поезд,
-ST_svj_Objectives/obj_svm_05_fight_enemies,Отбить оставшихся чикосов,
+ST_svj_Objectives/obj_svm_05_fight_enemies,Отбить оставшихся чикосов,Отбить оставшихся чикос
 ST_svj_Objectives/obj_svm_03_find_mac,Найти Мака на станции,
 ST_svj_Objectives/obj_svm_12_follow_mac,Следовать за Маком,
 ST_svj_Objectives/obj_svm_02_follow_mac,Отправиться на станцию с Маком,
@@ -26932,7 +26932,7 @@ ST_svm_Variations/StoryCharacter3D_ID_svm_escape_reminder_1_All_5,Пошли у�
 ST_svm_Variations/StoryCharacter3D_ID_svm_remove_saw_1_All_2,"Я не могу открыть ставни, пока там пила стоит.",
 ST_svm_Variations/StoryCharacter3D_ID_svm_follow_mac_1_All_3,"Некогда тупить, нужно уходить!",
 ST_svm_Variations/StoryCharacter3D_ID_svm_swat_here_1_All_1,"Проверьте боеприпасы. Как только дверь откроется, спецназ откроет пальбу.",
-ST_svm_Variations/StoryCharacter3D_ID_svm_blackscreen_2_All_3,"Если чикосы меня заметят, то на месте и пришьют.",
+ST_svm_Variations/StoryCharacter3D_ID_svm_blackscreen_2_All_3,"Если чикосы меня заметят, то на месте и пришьют.","Если чикос меня заметят, то на месте и пришьют."
 ST_svm_Variations/StoryCharacter3D_ID_svm_get_back_1_All_2,Возвращайтесь в диспетчерскую!,
 ST_svm_Variations/StoryCharacter3D_ID_svm_escape_he_1_All_5,"Приходите за мной, как закончите!",
 ST_svm_Variations/StoryCharacter3D_ID_svm_escape_reminder_1_All_2,Вперед! Я хочу отсюда свалить!,
@@ -26945,7 +26945,7 @@ ST_svm_Variations/StoryCharacter3D_ID_svm_control_room_briefing_1_All_1,Прик
 ST_svm_Variations/StoryCharacter3D_ID_svm_mac_dies_1_All_5,Сдох из-за хоум-видео! Какой позор.,
 ST_svm_Variations/StoryCharacter3D_ID_svm_meet_reminder_1_All_3,"Вы что, не видите меня? Я довольно заметный.",
 ST_svm_Variations/StoryCharacter3D_ID_svm_override_solution_1_All_5,"Ну что, есть эффект?",
-ST_svm_Variations/StoryCharacter3D_ID_svm_escape_he_1_All_4,"Вы же каждый день мочите чикосов. Подумаешь, парочкой больше.",
+ST_svm_Variations/StoryCharacter3D_ID_svm_escape_he_1_All_4,"Вы же каждый день мочите чикосов. Подумаешь, парочкой больше.","Вы же каждый день мочите чикос. Подумаешь, парочкой больше."
 ST_svm_Variations/StoryCharacter3D_ID_svm_control_1_All_1,Пока удалось их отбросить.,
 ST_svm_Variations/StoryCharacter3D_ID_svm_exit_blocked_1_All_2,"Входы перекрыли, там нам не выбраться!",
 ST_svm_Variations/StoryCharacter3D_ID_svm_mac_down_1_All_18,Могли бы уже мне помочь!,
@@ -26954,12 +26954,12 @@ ST_svm_Variations/StoryCharacter3D_ID_svm_follow_mac_1_All_8,За мной!,
 ST_svm_Variations/StoryCharacter3D_ID_svm_prepare_3_All_1,А там видно будет.,
 ST_svm_Variations/StoryCharacter3D_ID_svm_override_works_1_All_5,"Да я просто жал на всё подряд. Надеюсь, всё-таки выберемся.",
 ST_svm_Variations/StoryCharacter3D_ID_svm_mac_down_1_All_1,"Сука! А-а-а, в меня попали!",
-ST_svm_Variations/StoryCharacter3D_ID_svm_chicos_1_All_4,"Блядь! Ёбаные чикосы, ёбаный Хьело!",
+ST_svm_Variations/StoryCharacter3D_ID_svm_chicos_1_All_4,"Блядь! Ёбаные чикосы, ёбаный Хьело!","Блядь! Ёбаные чикос, ёбаный Хьело!"
 ST_svm_Variations/StoryCharacter3D_ID_svm_mac_dies_1_All_2,Чёрт! Это всё…,
 ST_svm_Variations/StoryCharacter3D_ID_svm_high_force_1_All_1,"Бля, бля, бля! Они уже дверь открыли!",
 ST_svm_Variations/StoryCharacter3D_ID_svm_boarding_1_All_3,"Сука, вот это опасно было! Но дальше будет еще жестче. Хорошо, что я с вами туда уже не пойду.",
 ST_svm_Variations/StoryCharacter3D_ID_svm_chicos_1_All_2,Блядь. Они здесь!,
-ST_svm_Variations/StoryCharacter3D_ID_svm_welcome_1_All_2,"Сраные чикосы. Ладно, идемте. Инфа по Хьело у меня в дальней комнате лавочки. И еще кое-что полезное там лежит.",
+ST_svm_Variations/StoryCharacter3D_ID_svm_welcome_1_All_2,"Сраные чикосы. Ладно, идемте. Инфа по Хьело у меня в дальней комнате лавочки. И еще кое-что полезное там лежит.","Сраные чикос. Ладно, идемте. Инфа по Хьело у меня в дальней комнате лавочки. И еще кое-что полезное там лежит."
 ST_svm_Variations/StoryCharacter3D_ID_svm_swat_reply_1_All_3,Сраные мусора!,
 ST_svm_Variations/StoryCharacter3D_ID_svm_get_back_1_All_1,Давайте сюда!,
 ST_svm_Variations/StoryCharacter3D_ID_svm_regroup_1_All_3,Проходите.,
@@ -27062,7 +27062,7 @@ ST_svm_Variations/StoryCharacter3D_ID_svm_override_works_1_All_4,"Ну, скре
 ST_svm_Variations/StoryCharacter3D_ID_svm_escape_station_1_All_1,О-о-о-о... Так. Так. Всё. Похер! Погнали!,
 ST_svm_Variations/StoryCharacter3D_ID_svm_mac_down_1_All_11,Ай! Сука!,
 ST_svm_Variations/StoryCharacter3D_ID_svm_mac_down_1_All_17,"Ай! Блин, плохо дело…",
-ST_svm_Variations/StoryCharacter3D_ID_svm_finish_enemies_1_All_3,"Добивайте выживших! Я не открою, пока все чикосы не сдохнут.",
+ST_svm_Variations/StoryCharacter3D_ID_svm_finish_enemies_1_All_3,"Добивайте выживших! Я не открою, пока все чикосы не сдохнут.","Добивайте выживших! Я не открою, пока все чикос не сдохнут."
 ST_svm_Variations/StoryCharacter3D_ID_svm_mac_down_1_All_16,Эй! Не дайте им меня вальнуть!,
 ST_svm_Variations/StoryCharacter3D_ID_svm_escape_station_1_All_3,"Только не бросайте меня, ага? Я не хочу сдохнуть в метро!",
 ST_svm_Variations/StoryCharacter3D_ID_svm_switch_confirm_1_All_1,Питание восстановлено!,
@@ -27098,7 +27098,7 @@ ST_svm_Variations/StoryCharacter3D_ID_svm_chicos_1_All_6,Это ребята Х�
 ST_svm_Variations/StoryCharacter3D_ID_svm_assault_1_All_3,Копы наступают!,
 ST_svm_Variations/StoryCharacter3D_ID_svm_override_start_1_All_3,Хули с ними делать вообще?,
 ST_svm_Variations/StoryCharacter3D_ID_svm_switch_objective_1_All_5,Сраный рубильник замкнуло! Попробуйте найти приборные щитки!,
-ST_svm_Variations/StoryCharacter3D_ID_svm_low_force_1_All_2,Чикосов много не бывает.,
+ST_svm_Variations/StoryCharacter3D_ID_svm_low_force_1_All_2,Чикосов много не бывает.,Чикос много не бывает.
 ST_svm_Variations/StoryCharacter3D_ID_svm_help_serious_1_All_3,Мне там дверь пилят!,
 ST_svm_Variations/StoryCharacter3D_ID_svm_mac_down_1_All_9,"Меня подстрелили, мать вашу!",
 ST_svm_Variations/StoryCharacter3D_ID_svm_chicos_1_All_3,"Они, блядь, меня нашли!",
@@ -27152,7 +27152,7 @@ ST_svm_Variations/StoryCharacter3D_ID_svm_escape_he_1_All_1,"Давайте, в�
 ST_svm_Variations/StoryCharacter3D_ID_svm_mac_dies_1_All_3,"Ну вы, ребята… и гады!",
 ST_svm_Variations/StoryCharacter3D_ID_svm_stop_saw_1_All_3,"Привыкли вы всё оставлять на последнюю секунду? Я уж думал, мне кранты!",
 ST_svm_Variations/StoryCharacter3D_ID_svm_stop_saw_1_All_2,"Вот и вы! Ха-ха, я уж переживать начал!",
-ST_svm_Variations/StoryCharacter3D_ID_svm_swat_incoming_1_All_3,"С чикосами вы разобрались... Надеюсь, спецназовцы для вас труда не составят. А то они скоро будут.",
+ST_svm_Variations/StoryCharacter3D_ID_svm_swat_incoming_1_All_3,"С чикосами вы разобрались... Надеюсь, спецназовцы для вас труда не составят. А то они скоро будут.","С чикос вы разобрались... Надеюсь, спецназовцы для вас труда не составят. А то они скоро будут."
 ST_svm_Variations/StoryCharacter3D_ID_svm_search_reminder_1_All_4,Вытащите меня!,
 ST_svm_Variations/StoryCharacter3D_ID_svm_swat_here_1_All_2,"Вы там как? Копы, наверное, уже прибыли.",
 ST_svm_Variations/StoryCharacter3D_ID_svm_back_to_hack_1_All_2,"Вот вы где! Я сейчас закончу, прикройте!",
