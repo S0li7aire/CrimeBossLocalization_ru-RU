@@ -26,7 +26,7 @@
 /hint_tuj_equipgundescription,"Нажмите <action id=""MountSlot2""/>, чтобы снарядить дополнительное оружие",
 /hint_tuj_escape,Эвакуация,
 /meta_crew_weapon_buyback_lastday,Исчезнет через 1 задание!,
-/meta_crew_weapon_buyback_expire,"Исчезнет через {count} {count}|plural(one=задание,few=задания,other=заданий)!",
+/meta_crew_weapon_buyback_expire,"Исчезнет через {count} {count}|plural(one=задание,few=задания,other=заданий)!","Исчезнет через {count} {count}|plural(one=задание,few=задания,many=заданий,other=заданий)!"
 /hint_tuj_equipgun,Снаряжение,
 /hint_tuj_equipcrowbar,Снаряжение,
 /hint_tuj_jump,Преодоление препятствий,
@@ -61,11 +61,11 @@
 /meta_crew_heister_perks,Особенности,
 /hint_tuj_destroycamerawithgundescription,"Нажмите <action id=""Bash""/>, чтобы сломать камеру оружием",
 /hint_tuj_destroycameradescription,"Нажмите <action id=""Bash""/>, чтобы сломать камеру.",
-/hint_tuj_destroycasesdestriction,"Удерживайте <action id=""Bash""/>, чтобы сломать кейсы с ценностями. Удерживайте <action id=""Use""/>, чтобы забрать добычу.",
+/hint_tuj_destroycasesdestriction,"Удерживайте <action id=""Bash""/>, чтобы сломать кейсы с ценностями. Удерживайте <action id=""Use""/>, чтобы забрать добычу.","Нажмите <action id=""Bash""/>, чтобы уничтожить ящики с добычей. Затем соберите ее, удерживая <action id=""Use""/>."
 /hint_tut_stealthkilldescription,"Пока вас не замечают, нажмите <action id=""Bash""/> за спиной у врага, чтобы устранить его, не привлекая внимания ",
 /hint_tuj_crouchdescription,"Нажмите <action id=""Crouch""/>, чтобы присесть.",
-/hint_tut_retrievelootdescription,"Нажмите <action id=""DropWieldable""/> рядом с кузовом фургона, чтобы закидывать туда сумки.",
-/hint_tut_droppingdescription,"Нажмите <action id=""DropWieldable""/>, чтобы бросить активный предмет.",
+/hint_tut_retrievelootdescription,"Нажмите <action id=""DropWieldable""/> рядом с кузовом фургона, чтобы закидывать туда сумки.","Нажмите <action id=""DropWieldable""/> рядом с кузовом фургона, чтобы закидывать в него сумки."
+/hint_tut_droppingdescription,"Нажмите <action id=""DropWieldable""/>, чтобы бросить активный предмет.","Нажмите <action id=""DropWieldable""/>, чтобы бросить текущий экипированный предмет."
 /hint_tuj_jumpdescription,"Нажмите <action id=""Jump""/>, чтобы перепрыгнуть или перелезть через препятствие.",
 /hint_tuj_equipcrowbardescription,"Нажмите <action id=""MountSlot1""/>, чтобы взять монтировку",
 /hint_tuj_pingdescription,"Нажмите <action id=""Ping""/>, глядя на врага или предмет, чтобы отметить их для союзников.",
@@ -3230,7 +3230,7 @@ ST_ChainMissions/schain_story_O13-2_description,"Моцарта поймала �
 ST_ChainMissions/schain_story_AoH_title,Новая кровь,
 ST_ChainMissions/schain_story_KillHielo_description,Шутки кончились. Помогите Маку справиться с бывшим нанимателем и ударьте Хьело по самому больному.,
 ST_ChainMissions/schain_story_O13-1_title,Копилка,
-ST_ChainMissions/schain_shuffle_tile_mission_count,Сыграть несколько случайных заданий ({Num}) подряд.,"Сыграть {Num} {Num}|plural(one=случайное задание,few=случайных задания,many=случайных заданий) подряд."
+ST_ChainMissions/schain_shuffle_tile_mission_count,Сыграть несколько случайных заданий ({Num}) подряд.,"Сыграть {Num} {Num}|plural(one=случайное задание,few=случайных задания,many=случайных заданий,other=случайных заданий) подряд."
 ST_ChainMissions/schain_story_PaG-2_objective,Ограбить склад Хьело,
 ST_ChainMissions/schain_story_SA-3_objective,Ограбить яхту Хана,
 ST_ChainMissions/schain_story_AoH-2_objective,Ограбить бронированный грузовик,
@@ -15543,8 +15543,8 @@ ST_generic_Missions/meta_generic_attackturffinal_description,Последняя 
 ST_generic_Missions/meta_generic_ami-police_description1,"Не успели вы добраться до безопасного места после нового задания, как за вами погналась полиция.
 Продержитесь, пока не прибудет подкрепление!",
 ST_generic_Missions/meta_generic_ami_title,Засада,
-ST_generic_Missions/meta_generic_attackturf_title,Нападите на территорию,
-ST_generic_Missions/meta_generic_attackturffinal_title,Нападите на территорию,
+ST_generic_Missions/meta_generic_attackturf_title,Нападите на территорию,Напасть на территорию
+ST_generic_Missions/meta_generic_attackturffinal_title,Нападите на территорию,Напасть на территорию
 ST_generic_Missions/meta_generic_neutralturf_title,Захватить территорию,
 ST_generic_Missions/meta_generic_attackturf_description,Сразиться с силами конкурента за владение территорией — забрать себе или бесславно умереть.,
 ST_generic_Missions/meta_generic_defendturf_title,Защитить территорию,
@@ -17430,7 +17430,7 @@ ST_HUD/PromptHolster,"{deviceaction}|deviceaction(other=<action id=""SwitchHolst
 ST_InputActions/input_Aim,Прицеливание,
 ST_InputActions/input_ApproveBotSuggestion,Одобрить предложение бота,
 ST_InputActions/input_MenuBack,Назад,
-ST_InputActions/input_Bash,Рывок,
+ST_InputActions/input_Bash,Рывок,Удар
 ST_InputActions/input_CharacterMenu,Меню бота/ сдаться,
 ST_InputActions/input_BotMenuCancel,Меню бота: отмена,
 ST_InputActions/input_BotMenuPossess,Меню бота: завладеть,
@@ -17478,7 +17478,7 @@ ST_InputActions/input_Reload,Перезарядка,
 ST_InputActions/input_SecondaryWeapon,Дополнительное оружие,
 ST_InputActions/input_Shoot,Выстрелить,
 ST_InputActions/input_Skip,Пропуск,
-ST_InputActions/input_Sprint,Бросок,
+ST_InputActions/input_Sprint,Бросок,Бег
 ST_InputActions/input_SwitchFireMode,Изменить режим огня,
 ST_InputActions/input_SwitchWeapon,Сменить оружие/ убрать,
 ST_InputActions/input_Use,Использовать,
@@ -17561,11 +17561,11 @@ ST_Interactive/name_vent_open,Открыть отверстие,
 ST_Interactive/name_window_open,Открыть окно,
 ST_Interactive/drill_screen_overheating,Перегрев,
 ST_Interactive/action_override_platform_control,Перехватить управление платформой,
-ST_Interactive/action_glider_pack,Запаковать планер,
+ST_Interactive/action_glider_pack,Запаковать планер,Упаковать планер
 ST_Interactive/action_pick_loot_bag,Поднять сумку,
 ST_Interactive/action_pick_up,Забрать,
 ST_Interactive/action_detonator_pickup,Взять детонатор,
-ST_Interactive/action_place_c4,Установите C4.,
+ST_Interactive/action_place_c4,Установите C4.,Установить C4
 ST_Interactive/action_place_bag,Разместить сумку,
 ST_Interactive/action_place_drill,Разместить дрель,
 ST_Interactive/action_place_emp,Установить ЭМИ,
@@ -17592,7 +17592,7 @@ ST_Interactive/action_sabotage_engine,Испортить двигатель,
 ST_Interactive/action_search,Искать,
 ST_Interactive/action_security_monitor,Монитор охраны,
 ST_Interactive/action_send_laptop,Отправить ноутбук,
-ST_Interactive/action_button_smokescreen,Создайте дымовую завесу.,
+ST_Interactive/action_button_smokescreen,Создайте дымовую завесу.,Создать дымовую завесу
 ST_Interactive/action_setup_laptop,Настроить ноутбук,
 ST_Interactive/action_signal_pilot,Дать сигнал пилоту,
 ST_Interactive/action_speed_up_drill,Ускорить дрель,
@@ -17606,7 +17606,7 @@ ST_Interactive/action_steal_fiance_ring,Украсть драгоценное к
 ST_Interactive/action_stop_follow,Перестать следовать,
 ST_Interactive/action_sweep_Floor,Подмести пол,
 ST_Interactive/action_switch_circuit,Переключить цепь,
-ST_Interactive/action_take,Take,
+ST_Interactive/action_take,Take,Взять
 ST_Interactive/action_take_code,Взять код,
 ST_Interactive/action_take_drill,Взять дрель,
 ST_Interactive/action_take_laptop,Взять ноутбук,
@@ -19390,16 +19390,16 @@ ST_meta_BonusObjectives/meta_missionobjective_kills_above-pack,Убить как
 ST_meta_BonusObjectives/meta_missionobjective_kills-gangsters_above-pack2,Убить как минимум 35 бандитов,
 ST_meta_BonusObjectives/meta_missionobjective_kills_above-lots,Убить как минимум 50 врагов,
 ST_meta_BonusObjectives/meta_missionobjective_kills_above-horde,Убить как минимум 75 врагов,
-ST_meta_BonusObjectives/meta_missionobjective_kills_above,"Убить как минимум {Amount} {Amount}|plural(one=врага, other=врагов)",
+ST_meta_BonusObjectives/meta_missionobjective_kills_above,"Убить как минимум {Amount} {Amount}|plural(one=врага, other=врагов)","Убить как минимум {Amount} {Amount}|plural(one=врага,many=врагов,other=врагов)"
 ST_meta_BonusObjectives/meta_missionobjective_maxpolicekill-15,Убить не больше 15 полицейских,
 ST_meta_BonusObjectives/meta_missionobjective_maxpolicekill-5,Убить не больше 5 полицейских,
 ST_meta_BonusObjectives/meta_missionobjective_coc-detectives,Убить обоих детективов,
 ST_meta_BonusObjectives/meta_missionobjective_kills_under-pack,Убить менее 20 врагов,
-ST_meta_BonusObjectives/meta_missionobjective_kills_under,"Убить {Amount} {Amount}|plural(one=врага, other=врагов)",
+ST_meta_BonusObjectives/meta_missionobjective_kills_under,"Убить {Amount} {Amount}|plural(one=врага, other=врагов)","Убить {Amount} {Amount}|plural(one=врага,many=врагов,other=врагов)"
 ST_meta_BonusObjectives/meta_missionobjective_coc-detectives-no,Не убивать детективов,
 ST_meta_BonusObjectives/meta_missionobjective_onlytarget,Убить только цель и никого больше,
 ST_meta_BonusObjectives/meta_missionobjective_custom_car_lootsafes-all,Обнести все сейфы,
-ST_meta_BonusObjectives/meta_missionobjective_custom_car_lootsafes-x,"Обнести сейфы ({Amount}) {Amount}|plural(one=сейф, other=сейфа)",
+ST_meta_BonusObjectives/meta_missionobjective_custom_car_lootsafes-x,"Обнести сейфы ({Amount}) {Amount}|plural(one=сейф, other=сейфа)","Обнести сейфы {Amount} {Amount}|plural(one=сейф,few=сейфа,many=сейфов,,other=сейфов)"
 ST_meta_BonusObjectives/meta_missionobjective_detective-kill,Заманите и убейте детектива,
 ST_meta_BonusObjectives/meta_missionobjective_maxheisters-1,Только один член группы,
 ST_meta_BonusObjectives/meta_missionobjective_custom_hie_correct-truck,Открыть только нужный фургон,
@@ -24881,7 +24881,7 @@ ST_Progression/progression_magazine_weapon_skin,Облик оружия,
 ST_Progression/progression_category_weapon_skins,Облики оружия,
 ST_Progression/progression_category_weapons,Оружие,
 ST_Progression/progression_milestone_text,Пройдите кампанию в {number}-й раз.,
-ST_Progression/challenge_complete_campaign,"Пройдите еще Roguelite-кампании ({remaining}), чтобы разблокировать.",
+ST_Progression/challenge_complete_campaign,"Пройдите еще Roguelite-кампании ({remaining}), чтобы разблокировать.","Пройдите еще {remaining} {remaining}|plural(one=Roguelite-кампанию,few=Roguelite-кампании,many=Roguelite-кампаний), чтобы разблокировать."
 ST_Progression/progression_overall_progress_badge,Разблокировано: {unlocked}/{from},
 ST_Props/computer_message_access_rejected,Доступ запрещен,
 ST_Props/computer_message_access_granted,Доступ разрешен,
@@ -26104,7 +26104,7 @@ ST_SettingsMenu/umg_settings_audio,Звук,
 ST_SettingsMenu/umg_settings_sounds_audiomix,Аудиомикс,
 ST_SettingsMenu/umg_settings_graphics_profile_auto,Авто,
 ST_SettingsMenu/umg_settings_graphics_supersampling_auto,Авто,
-ST_SettingsMenu/umg_settings_graphics_supersampling_balanced,Сбалансированный,
+ST_SettingsMenu/umg_settings_graphics_supersampling_balanced,Сбалансированный,Баланс
 ST_SettingsMenu/umg_settings_controls_binding_movement,Базовое передвижение,
 ST_SettingsMenu/umg_settings_game_blocked_players_button,Заблокированные игроки,
 ST_SettingsMenu/umg_settings_blocked_players_title,Заблокированные игроки ({current}/{max}),
@@ -30868,7 +30868,7 @@ ST_Weapons/weapon_baseballbat_title,Бейсбольная бита,Бейсбо
 ST_Weapons/weapon_Redhawk-alaskan_title,Убийца медведей,Убийца медведей
 ST_Weapons/weapon-Redhawk-alaskan-short_title,Убийца медведей: обрез,Убийца медведей: обрез
 ST_Weapons/weapon_Redhawk-alaskan_short_title,Убийца медведей: обрез,Убийца медведей: обрез
-ST_Weapons/weapon_bohema_title,«Богема»,«Богема»
+ST_Weapons/weapon_bohema_title,«Богема»,Богема
 ST_Weapons/weapon_boxer_jupiter_title,Bone Breaker,Костолом
 ST_Weapons/weapon_boxer_title,«Боксер»,Боксёр
 ST_Weapons/weapon_beretta_title,«Брешиа» 92,«Брешиа» 92
