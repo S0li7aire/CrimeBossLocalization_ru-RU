@@ -23320,7 +23320,7 @@ ST_meta_RandEventRewards/meta_event_reward_gang_truce,"Банда {Gang} не б
 ST_meta_RandEventRewards/meta_event_reward-heister,{Quality} {Heister} (ур. {Level}) присоединится к банде,
 ST_meta_Respect/meta_respect_tier-4,Рядовой,
 ST_meta_Respect/meta_respect_sequence_tile-3_title,Союзники и оружие,
-ST_meta_Respect/meta_respect_tier-6,Босс преступного мира,
+ST_meta_Respect/meta_respect_tier-6,Босс преступного мира,БОСС
 ST_meta_Respect/meta_respect_tier-3,Хаслер,
 ST_meta_Respect/meta_respect_tier-final,Король,
 ST_meta_Respect/meta_respect_tier-5,Авторитет,
@@ -32035,7 +32035,7 @@ ST_Weapons/weapon_m16-extended_title,Винтовка EOG,Винтовка EOG
 ST_Weapons/weapon_m16-reddot-extended_title,Винтовка ER,Винтовка ER
 ST_Weapons/weapon_m16-extendedholo_title,Винтовка H,Винтовка H
 ST_Weapons/weapon_m16-reddot_title,Винтовка R+,Винтовка R+
-ST_Weapons/weapon_axe_title,Палочка,Палочка
+ST_Weapons/weapon_axe_title,Палочка,Топорик
 ST_Weapons/weapon_cleansingflare_title,Очищающее пламя,Очищающее пламя
 ST_Weapons/weapon_cleaver_title,Тесак,Тесак
 ST_Weapons/weapon_m16-cracker_title,Винтовка Крекера,Винтовка Крекера
