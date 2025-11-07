@@ -61,7 +61,7 @@
 /meta_crew_heister_perks,Особенности,
 /hint_tuj_destroycamerawithgundescription,"Нажмите <action id=""Bash""/>, чтобы сломать камеру оружием",
 /hint_tuj_destroycameradescription,"Нажмите <action id=""Bash""/>, чтобы сломать камеру.",
-/hint_tuj_destroycasesdestriction,"Удерживайте <action id=""Bash""/>, чтобы сломать кейсы с ценностями. Удерживайте <action id=""Use""/>, чтобы забрать добычу.","Нажмите <action id=""Bash""/>, чтобы сломать ящики с добычей. Затем соберите ее, удерживая <action id=""Use""/>."
+/hint_tuj_destroycasesdestriction,"Удерживайте <action id=""Bash""/>, чтобы сломать кейсы с ценностями. Удерживайте <action id=""Use""/>, чтобы забрать добычу.","Нажмите <action id=""Bash""/>, чтобы сломать ящик с добычей. Затем соберите её, удерживая <action id=""Use""/>."
 /hint_tut_stealthkilldescription,"Пока вас не замечают, нажмите <action id=""Bash""/> за спиной у врага, чтобы устранить его, не привлекая внимания ",
 /hint_tuj_crouchdescription,"Нажмите <action id=""Crouch""/>, чтобы присесть.",
 /hint_tut_retrievelootdescription,"Нажмите <action id=""DropWieldable""/> рядом с кузовом фургона, чтобы закидывать туда сумки.","Нажмите <action id=""DropWieldable""/> рядом с кузовом фургона, чтобы закидывать в него сумки."
@@ -768,7 +768,7 @@ ST_99p_Variations/GenericPlanner_ID_99p_bridge_gone_4_All_1,"Ну, шериф у
 ST_99p_Variations/GenericPlanner_ID_99p_judge_me_3_All_1,"Ну, он на отдыхе, а вот мы нет!",
 ST_99p_Variations/StoryCharacter3D_ID_99p_cagnali_monologue_2_All_1,Позвольте мне избавить вас от лишних хлопот.,
 ST_99p_Variations/GenericHeister_ID_99p_door_pass_1_All_1,"Ну, это помогло.",
-ST_99p_Variations/GenericHeister_ID_99p_escape_1_All_1,"Что ж, 99 бед... но ее в списке нет.","Что ж, 99 проблем… но ее в списке нет."
+ST_99p_Variations/GenericHeister_ID_99p_escape_1_All_1,"Что ж, 99 бед... но ее в списке нет.","Что ж, 99 проблем… но её в списке нет."
 ST_99p_Variations/GenericPlanner_ID_99p_reminder_use_gear_1_All_2,"Ну что, теперь у вас есть все, что нужно?",
 ST_99p_Variations/GenericPlanner_ID_99p_see_helicopter_1_All_3,Что ж… вперед.,
 ST_99p_Variations/GenericHeister_ID_99p_detectives_5_All_1,"Что ж, добро пожаловать в бой, мистер офицер...",
@@ -1466,7 +1466,7 @@ ST_atg_Objectives/obj_atg_aoh_findthearmoredvan,Пробраться в убеж
 ST_atg_Objectives/obj_atg_1b_interrupt,Сорвать сделку,
 ST_atg_Objectives/obj_atg_ct_interrupt,Сорвать сделку,
 ST_atg_Objectives/obj_atg_ct_locatewhitey,Найти Уитни,
-ST_atg_Objectives/obj_atg_1_locate,Найдите место сделки и сорвите ее.,Найти место сделки и сорвать ее
+ST_atg_Objectives/obj_atg_1_locate,Найдите место сделки и сорвите ее.,Найти место сделки и сорвать её
 ST_atg_Objectives/obj_atg_3_stealCandy,Найти и выкрасть «конфетки»,
 ST_atg_Objectives/obj_atg_aoh_findmoreloot,Найти еще добычу,
 ST_atg_Objectives/obj_atg_vamp_02_find_briefcase,Найти портфель ,
@@ -3497,7 +3497,7 @@ ST_car_Variations/GenericPlanner_ID_car_place_last_c4_1_All_2,Бей их!,
 ST_car_Variations/GenericPlanner_ID_car_explosives_stealth_1_All_1,Теперь придется пошуметь.,
 ST_car_Variations/GenericPlanner_ID_car_snd_heli_meantime_1_All_1,Вторая вертушка на подходе. Ожидайте.,
 ST_car_Variations/GenericPlanner_ID_car_place_last_c4_1_All_1,Ставим и подрываем!,
-ST_car_Variations/GenericPlanner_ID_car_break_stealth_later_1_All_3,"Блин. Короче, там еще чикосы на подходе. Давайте-ка максимально ускоримся, ага?","Блин. Короче, там еще чикос на подходе. Давайте-ка максимально ускоримся, ага?"
+ST_car_Variations/GenericPlanner_ID_car_break_stealth_later_1_All_3,"Блин. Короче, там еще чикосы на подходе. Давайте-ка максимально ускоримся, ага?","Блин. Короче, там ещё чикос на подходе. Давайте-ка максимально ускоримся, ага?"
 ST_car_Variations/GenericPlanner_ID_car_deliver_loot_1_All_1,Этого более чем достаточно. Тащите сумки в фургон.,
 ST_car_Variations/GenericPlanner_ID_car_magnet_2_All_1,"Как закрепите магнит, дайте сигнал пилоту.",
 ST_car_Variations/GenericPlanner_ID_car_escape_fail_lambo_1_All_2,Ну пиздец! Тачку потеряли.,
@@ -3540,7 +3540,7 @@ ST_car_Variations/GenericPlanner_ID_car_escape_reminder_1_All_2,"Ждем вас
 ST_car_Variations/GenericPlanner_ID_car_roof_exit_reminder_1_All_2,Вы чего? А ну отойдите!,
 ST_car_Variations/GenericPlanner_ID_car_break_stealth_early_1_All_2,"Чего там творится? Это что, выстрелы? Эй! Хрена ли там происходит?",
 ST_car_Variations/GenericPlanner_ID_car_safe_reminder_1_All_2,Чего ждем?,
-ST_car_Variations/GenericPlanner_ID_car_safehouse_reminder_1_All_3,"Чикосы сюда приезжают либо барыжить, либо забирать товар. Их будет предостаточно.","Чикос сюда приезжают либо барыжить, либо забирать товар. Их будет предостаточно."
+ST_car_Variations/GenericPlanner_ID_car_safehouse_reminder_1_All_3,"Чикосы сюда приезжают либо барыжить, либо забирать товар. Их будет предостаточно.","Чикос приезжают сюда либо барыжить, либо забирать товар. Их будет предостаточно."
 ST_car_Variations/GenericPlanner_ID_car_magnet_reminder_1_All_3,"Как закрепите магнит, лучше будет немного отойти, ага?",
 ST_car_Variations/GenericPlanner_ID_car_place_explosives_failed_1_All_1,"А третий заряд где? Вы его что, просрали уже? Погодите, я вам еще отправлю.",
 ST_car_Variations/GenericPlanner_ID_car_safe_3_All_1,"Нам нужен сейф. Вскрывайте его и забирайте оттуда всё. Главное, сраную кассету не забудьте.",
@@ -18282,11 +18282,11 @@ ST_HUD/PromptHolster,"{deviceaction}|deviceaction(other=<action id=""SwitchHolst
 ST_InputActions/input_Aim,Прицеливание,
 ST_InputActions/input_ApproveBotSuggestion,Одобрить предложение бота,
 ST_InputActions/input_MenuBack,Назад,
-ST_InputActions/input_Bash,Вырубить,Ударить
-ST_InputActions/input_CharacterMenu,Меню бота/ сдаться,
+ST_InputActions/input_Bash,Вырубить,
+ST_InputActions/input_CharacterMenu,Меню бота/ сдаться,Меню бота / Колесо чата
 ST_InputActions/input_BotMenuCancel,Меню бота: отмена,
 ST_InputActions/input_BotMenuPossess,Меню бота: завладеть,
-ST_InputActions/input_BotMenuFollow,Приказ боту: идти следом,
+ST_InputActions/input_BotMenuFollow,Приказ боту: идти следом,Приказ боту: следовать
 ST_InputActions/input_BotMenuStandBy,Приказ боту: стоять,
 ST_InputActions/input_MenuAccept,Подтвердить,
 ST_InputActions/input_Crouch,Приседание,Присесть
@@ -23320,7 +23320,7 @@ ST_meta_RandEventRewards/meta_event_reward_gang_truce,"Банда {Gang} не б
 ST_meta_RandEventRewards/meta_event_reward-heister,{Quality} {Heister} (ур. {Level}) присоединится к банде,
 ST_meta_Respect/meta_respect_tier-4,Рядовой,
 ST_meta_Respect/meta_respect_sequence_tile-3_title,Союзники и оружие,
-ST_meta_Respect/meta_respect_tier-6,Босс преступного мира,БОСС
+ST_meta_Respect/meta_respect_tier-6,Босс преступного мира,Босс
 ST_meta_Respect/meta_respect_tier-3,Хаслер,
 ST_meta_Respect/meta_respect_tier-final,Король,
 ST_meta_Respect/meta_respect_tier-5,Авторитет,
@@ -25995,7 +25995,7 @@ ST_Progression/progression_magazine_weapon_skin,Облик оружия,
 ST_Progression/progression_category_weapon_skins,Облики оружия,
 ST_Progression/progression_category_weapons,Оружие,
 ST_Progression/progression_milestone_text,Пройдите кампанию в {number}-й раз.,
-ST_Progression/challenge_complete_campaign,"Пройдите еще Роглайт-кампании ({remaining}), чтобы разблокировать.","Пройдите еще {remaining} {remaining}|plural(one=Roguelite-кампанию,few=Roguelite-кампании,many=Roguelite-кампаний,other=Roguelite-кампаний), чтобы разблокировать."
+ST_Progression/challenge_complete_campaign,"Пройдите еще Роглайт-кампании ({remaining}), чтобы разблокировать.","Пройдите еще {remaining} {remaining}|plural(one=Роглайт-кампанию,few=Роглайт-кампании,many=Роглайт-кампаний,other=Роглайт-кампаний), чтобы разблокировать."
 ST_Progression/progression_overall_progress_badge,Разблокировано: {unlocked}/{from},
 ST_Props/computer_message_access_rejected,Доступ запрещен,
 ST_Props/computer_message_access_granted,Доступ разрешен,
@@ -26192,7 +26192,7 @@ ST_qp_Sessions/qp_sessions_missiontype-contract,Задание,
 ST_qp_Sessions/qp_sessions_missiontype-opportunity,Задание,
 ST_qp_Sessions/qp_sessions_search_mission,Задание,
 ST_qp_Sessions/qp_sessions_filter_mission,Тип задания,
-ST_qp_Sessions/qp_modded_browser_title,С модами,
+ST_qp_Sessions/qp_modded_browser_title,С модами,Моды
 ST_qp_Sessions/qp_modded_lobby_title,Лобби с модами,
 ST_qp_Sessions/qp_slot_context_mute_on,Заблокировать,
 ST_qp_Sessions/qp_sessions_search_name,Название,
@@ -31646,7 +31646,7 @@ ST_Tutorials/tut_meta_turfdefense01_description,"Вашу территорию �
 ST_ush_Objectives/obj_ush_finishmission,Закончить задание,
 ST_ush_Objectives/obj_ush_escape,Пора бежать,
 ST_ush_Objectives/obj_ush_escape_wait_boat,Дождаться лодки для побега,
-ST_ush_Objectives/obj_ush_escape_wait_heli,"Дождитесь вертолета, чтобы сбежать.",
+ST_ush_Objectives/obj_ush_escape_wait_heli,"Дождитесь вертолета, чтобы сбежать.",Дождаться вертолета для побега
 ST_ush_Objectives/obj_ush_escape_wait_car,Дождаться фургона для побега,
 ST_ush_Objectives/obj_ush_escape_wait,Дождаться транспорта для побега,
 ST_ush_Variations/GenericPlanner_ID_ush_buzzsaw_finished_1_All_1,"Хорошо, мы выпилили всё, что нужно.",Хорошо. Пила закончила работу.
@@ -32063,7 +32063,7 @@ ST_Weapons/weapon_hammer_title,Молоток,Молоток
 ST_Weapons/weapon_perun_title,Ручная пушка,Ручная пушка
 ST_Weapons/weapon_perun-reddot_title,Ручная пушка R,Ручная пушка R
 ST_Weapons/weapon_ritualscepter_title,Собиратель душ,Собиратель душ
-ST_Weapons/weapon_hunting-rifle_title,Охотничье ружье,Охотничье ружье
+ST_Weapons/weapon_hunting-rifle_title,Охотничье ружье,Охотничья винтовка
 ST_Weapons/weapon_mossberg-jupiter_title,«Моссберг» Юпитер,«Моссберг» Юпитер
 ST_Weapons/weapon_katana_title,Катана,Катана
 ST_Weapons/weapon_tec9_title,Полицейский «Келгерн 9»,«Келгерн 9»
