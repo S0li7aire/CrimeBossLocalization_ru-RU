@@ -65,7 +65,7 @@
 /hint_tuj_destroycameradescription,"Нажмите <action id=""Bash""/>, чтобы сломать камеру.",
 /hint_tuj_destroycasesdestriction,"Удерживайте <action id=""Bash""/>, чтобы сломать кейсы с ценностями. Удерживайте <action id=""Use""/>, чтобы забрать добычу.","Нажмите <action id=""Bash""/>, чтобы сломать контейнер с добычей. Затем соберите её, удерживая <action id=""Use""/>."
 /hint_tut_stealthkilldescription,"Пока вас не замечают, нажмите <action id=""Bash""/> за спиной у врага, чтобы устранить его, не привлекая внимания ",
-/hint_tut_powerslamdescription,"Нажмите <action id=""Crouch""/> в воздухе, чтобы с силой приземлиться, создав наносящую урон ударную волну.",
+/hint_tut_powerslamdescription,"Нажмите <action id=""Crouch""/> в воздухе, чтобы с силой приземлиться, создав наносящую ударную волну. ",
 /hint_tuj_crouchdescription,"Нажмите <action id=""Crouch""/>, чтобы присесть.",
 /hint_tut_retrievelootdescription,"Нажмите <action id=""DropWieldable""/> рядом с кузовом фургона, чтобы закидывать туда сумки.","Нажмите <action id=""DropWieldable""/> рядом с кузовом фургона, чтобы закидывать в него сумки."
 /hint_tut_droppingdescription,"Нажмите <action id=""DropWieldable""/>, чтобы бросить активный предмет.","Нажмите <action id=""DropWieldable""/>, чтобы бросить переносимый предмет."
@@ -1559,7 +1559,7 @@ ST_auc_Missions/meta_auc_payfortools_task,Купить инструменты,
 ST_auc_Missions/meta_auc_auctionhouse_task,Ограбить аукционный зал,
 ST_auc_Missions/meta_auc_auctionhouse_objective,Выкрасть драгоценные яйца,
 ST_auc_Missions/meta_auc_purchasetools_description,"Особого инструментария нам не понадобится, но ценностей в этом здании уж очень много. Неплохо бы перестраховаться.",
-ST_auc_Missions/meta_auc_auctionhouse_description,"Три яйца Фаберже и куча других ценностей ждут нового владельца. К счастью, в преддверии предстоящего аукциона у нас нашелся инсайдер. Внимательно следуйте его инструкциям, и мы как следует наваримся, а он удовлетворит свои потребности иного рода.",
+ST_auc_Missions/meta_auc_auctionhouse_description,"Три яйца Фаберже и ворох других ценностей так и просятся в руки. К счастью, на аукционе у нас есть свой человек. Делайте всё точно по его указке — и сами наваримся, и ему на его «хотелки» хватит ",
 ST_auc_Objectives/obj_auc_side_adjust_satellite,Перенастроить спутниковую тарелку,
 ST_auc_Objectives/obj_auc_bring_CD,Принести дискету инсайдеру,
 ST_auc_Objectives/obj_auc_side_bring_manifest,Принести накладную инсайдеру,
@@ -2003,7 +2003,7 @@ ST_auc_Variations/StoryCharacter3D_ID_auc_office_contested_insider_1_All_11,Ка
 ST_auc_Variations/StoryCharacter3D_ID_auc_egg_picked_stealth_insider_1_All_1,Что я вам говорил! Прямо к сокровищу вас привел.,
 ST_auc_Variations/GenericPlanner_ID_auc_power_cut_reminder_1_All_1,Что за тягомотина?,
 ST_auc_Variations/GenericPlanner_ID_auc_continue_1_All_2,Теперь-то в чём проблема?,
-ST_auc_Variations/GenericPlanner_ID_auc_collection_secured_1_All_3,Что скажете? Яиц хватит или вернемся за добавокй?,
+ST_auc_Variations/GenericPlanner_ID_auc_collection_secured_1_All_3,Что скажете? Яиц хватит или вернемся за добавкой?,
 ST_auc_Variations/GenericPlanner_ID_auc_blackscreen_cash_3_All_3,Тебе там норм вообще? Сам-то готов?,
 ST_auc_Variations/StoryCharacter3D_ID_auc_office_contested_insider_1_All_2,А куда все подевались?!,
 ST_auc_Variations/GenericPlanner_ID_auc_deliver_reminder_1_All_2,Где товар? Чем вы там заняты?,
@@ -3920,7 +3920,7 @@ ST_car_Variations/GenericPlanner_ID_car_loot_reminder_1_All_3,Кэш и нарк
 ST_car_Variations/GenericPlanner_ID_car_explosives_reminder_1_All_2,"Мы подорвем крепления потолка, а первая вертушка его отсоединит и утащит.",
 ST_car_Variations/GenericPlanner_ID_car_snd_heli_arriving_1_All_2,Второй вертолет на подходе.,
 ST_car_Variations/GenericPlanner_ID_car_fst_heli_meantime_1_All_1,Вертушка на подходе!,
-ST_car_Variations/GenericPlanner_ID_car_car_dealer_reminder_1_All_5,В центре стоит золотой «торини». Его можно очень неплохо загнать.,
+ST_car_Variations/GenericPlanner_ID_car_car_dealer_reminder_1_All_5,В центре стоит золотой «торини». Его можно очень неплохо загнать.,В центре стоит золотой «Торини». Его можно очень неплохо загнать.
 ST_car_Variations/GenericPlanner_ID_car_safe_reminder_1_All_1,Вы уже отыскали кассету?,
 ST_car_Variations/GenericPlanner_ID_car_roof_exit_reminder_1_All_3,"Вы что, глухие? Хрена ли вы там стоите?",
 ST_car_Variations/GenericPlanner_ID_car_car_dealer_reminder_1_All_2,У этого придурка и прав-то нет. Зачем ему дилерский центр — я хз.,
@@ -4148,7 +4148,7 @@ ST_ChainMissions/schain_story_TH-2_objective,Защитить свой скла�
 ST_ChainMissions/schain_story_AoH-2_description,"В документах из мастерской по ремонту указан маршрут бронированного грузовика. Перехватите его, откройте и обчистите.",
 ST_ChainMissions/schain_story_TH-3_title,Дракопсы,
 ST_ChainMissions/schain_story_PaG-1_title,Бой за территорию,
-ST_ChainMissions/schain_story_TH-1_objective,Найти информацию об ювелирном магазине,
+ST_ChainMissions/schain_story_TH-1_objective,Найти информацию об ювелирном магазине,Найти информацию о ювелирном магазине
 ST_ChainMissions/schain_story_AoH-3_title,Первый банк,
 ST_ChainMissions/schain_story_O13-2_objective,Освободить Моцарта,
 ST_ChainMissions/schain_story_O13-2_title,Творческая свобода Моцарта,
@@ -6206,7 +6206,7 @@ ST_cra5_Objectives/obj_cra5_move_out,Выдвинуться,
 ST_cra5_Objectives/obj_cra5_take_the_briefcase,Забрать портфель,
 ST_cra5_Objectives/obj_cra5_run_to_the_exit,Добежать до выхода,
 ST_cra5_Objectives/obj_cra5_search_the_house,Обыскать дом,
-ST_cra5_Objectives/obj_cra5_take_the_cash,Возьмите наличные.,
+ST_cra5_Objectives/obj_cra5_take_the_cash,Возьмите наличные.,Взять наличные
 ST_cra5_Objectives/obj_cra5_escape,Пора бежать,
 ST_cracker_Variations/GenericHeister_ID_cracker_m1_landing_1_All_1,"(приземляется на ноги, охнув)",
 ST_cracker_Variations/StoryCharacter2DRadio_ID_cracker_m4_sub_visual3_1_All_1,...быстрее.,
@@ -7087,7 +7087,7 @@ ST_cup_Objectives/obj_cup_blow_main_gate,Разнести главные вор�
 ST_cup_Objectives/obj_cup_set_c4_wall,Взорвать стену зала техобслуживания,
 ST_cup_Objectives/obj_reconTheHand_Clean_Window,Мыть окно и слушать,
 ST_cup_Objectives/obj_cup_clear_roof,Зачистите крышу.,Зачистить крышу
-ST_cup_Objectives/obj_cup_disable_electricity,Отключить подачу питания к решеткам,
+ST_cup_Objectives/obj_cup_disable_electricity,Отключить подачу питания к решеткам,Отключить подачу питания к решёткам
 ST_cup_Objectives/obj_cup_enter_depo,Войти в хранилище,
 ST_cup_Objectives/obj_cup_escape,Скрыться,
 ST_cup_Objectives/obj_cup_get_bridge,Сбежать через мост,
@@ -7887,7 +7887,7 @@ ST_CUTauc_Variations/Insider_ID_CUTauc_Intro2_1_1,Ф-ф-ф. Да?,
 ST_CUTauc_Variations/Insider_ID_CUTauc_Failure_NoInsider_2_1,Ф-ф-ф. Не говори…,
 ST_CUTauc_Variations/Insider_ID_CUTauc_HireInsider_ResultB_2_1,"Ф-ф-ф. Я без понятия, о чём ты, мужик. Мне плевать, как ты мне заплатишь, главное — заплати.",
 ST_CUTauc_Variations/Insider_ID_CUTauc_HireInsider_1_1,"Ф-ф-ф... Итак, обсудим мой гонорар. У тебя же бабло наготове?",
-ST_CUTauc_Variations/Insider_ID_CUTauc_Victory_Stealth_2_1,"Ф-ф-ф. Верь мне, бро. Как уволят… Ф-ф-ф… я тебе первым позвоню.",
+ST_CUTauc_Variations/Insider_ID_CUTauc_Victory_Stealth_2_1,"Ф-ф-ф. Верь мне, бро. Как уволят… Ф-ф-ф… я тебе первому позвоню.",
 ST_CUTauc_Variations/Insider_ID_CUTauc_Intro_ResultB_2_1,"Ф-ф-ф… Ага, коксом.",
 ST_CUTauc_Variations/Insider_ID_CUTauc_Failure_5_1,"6,8 ляма. Скоро собрать сможешь?",
 ST_CUTauc_Variations/Insider_ID_CUTauc_Failure_NoInsider_4_1,"Знаешь… Ф-ф-ф. Я тут подумал, а вдруг у вас для меня работенка есть? Мне бы сейчас как раз бабки не помешали, и…",
@@ -7903,7 +7903,7 @@ ST_CUTauc_Variations/Insider_ID_CUTauc_Victory_Loud_NoInsider_1_1,Могло б�
 ST_CUTauc_Variations/MacPlanner_ID_CUTauc_IntroShort_ResultA_1_1,Лады. Телефон не вырубай. По поводу оплаты с тобой свяжемся.,
 ST_CUTauc_Variations/MacPlanner_ID_CUTauc_Intro_ResultA_1_1,Лады. Телефон не вырубай. По поводу оплаты с тобой свяжемся.,
 ST_CUTauc_Variations/Insider_ID_CUTauc_Victory_Loud_NoInsider_3_1,"Я вам достаточно помог! Оно стоило своих денег… и честно говоря, даже немного больше, а?",
-ST_CUTauc_Variations/Insider_ID_CUTauc_HireInsiderShortest_3_1,Супер. А бабки мои?,
+ST_CUTauc_Variations/Insider_ID_CUTauc_HireInsiderShortest_3_1,Супер. Мои бабки при тебе?? ,
 ST_CUTauc_Variations/Insider_ID_CUTauc_Failure_NoInsider_6_1,Эй?,
 ST_CUTauc_Variations/MacPlanner_ID_CUTauc_Failure_2_1,Эй?,
 ST_CUTauc_Variations/Insider_ID_CUTauc_Failure_7_1,Алло? Алло?!,
@@ -7916,7 +7916,7 @@ ST_CUTauc_Variations/Insider_ID_CUTauc_Victory_Loud_Insider_3_1,"Я больше
 ST_CUTauc_Variations/MacPlanner_ID_CUTauc_HireInsiderShort_2_1,Это Мак.,
 ST_CUTauc_Variations/Insider_ID_CUTauc_HireInsider_ResultA_2_1,"Мужик, да у меня насморк просто, попустись. Ф-ф-ф. Всё нормас будет, зуб даю.",
 ST_CUTauc_Variations/Insider_ID_CUTauc_PurchaseTools_ResultC_1_1,"Так, совет просто. Ф-ф-ф. Всё, давай.",
-ST_CUTauc_Variations/Insider_ID_CUTauc_HireInsider_ResultC_2_1,"Так, мужик, я тебя сразу перебью. Ф-ф-ф. Я чую, к чему ты клонишь. Я знаю, сколько стоят мои услуги, так что тут ты меня не прокатишь. Короче, если бабки есть, то звони.",
+ST_CUTauc_Variations/Insider_ID_CUTauc_HireInsider_ResultC_2_1,"Так, мужик, я тебя сразу перебью. Ф-ф-ф. Я чую, к чему ты клонишь. Я знаю, сколько стоят мои услуги, так что тут ты меня не прокатишь. Короче, звони, когда будут бабки.",
 ST_CUTauc_Variations/MacPlanner_ID_CUTauc_HireInsider_ResultA_1_1,"Бабки я тебе перевел, но пока дело не провернем, чтоб к дилеру ни ногой. Прежде чем ты схватишь передоз порошком, который загружаешь себе в нос декалитрами, ты должен успеть нам помочь.",
 ST_CUTauc_Variations/Insider_ID_CUTauc_Failure_3_1,"Мак, это я. Мужик, вытащи меня отсюда, а. Аукционный зал этот, они еще и кокс нашли… Боюсь, мне тут вышка светит, мужик!",
 ST_CUTauc_Variations/Insider_ID_CUTauc_HireInsiderShort_3_1,Мак?,
@@ -7927,7 +7927,7 @@ ST_CUTauc_Variations/Insider_ID_CUTauc_HireInsiderShortest_ResultA_2_1,"Угу, 
 ST_CUTauc_Variations/Insider_ID_CUTauc_Intro2_3_1,"Может и так… Ф-ф-ф. А вы очередные бандосы, которые в дело хотят?",
 ST_CUTauc_Variations/MacPlanner_ID_CUTauc_Victory_Loud_Insider_4_1,"Так и есть! Ты вполне мог запросить побольше. Всё, давай.",
 ST_CUTauc_Variations/MacPlanner_ID_CUTauc_HireInsiderShort_ResultC_1_1,"Пока нет, но мы над этим работаем.",
-ST_CUTauc_Variations/Insider_ID_CUTauc_HireInsiderShort_5_1,"А, ну да, ага. Всё так… Бабки есть?",
+ST_CUTauc_Variations/Insider_ID_CUTauc_HireInsiderShort_5_1,"А, точно. Помню...… Бабки есть? ",
 ST_CUTauc_Variations/Insider_ID_CUTauc_Intro2_5_1,"То же, что и вам скажу: скоро у Хуана Леона распродажа. Цацки, антиквариат. А главный лот — три яйца Фаберже. Причем подлинные.",
 ST_CUTauc_Variations/MacPlanner_ID_CUTauc_HireInsider_ResultB_1_1,"Предположу, что тебе на самом деле вовсе не бабки нужны. Предлагаю без посредников выдать тебе то, на что ты и так будешь их тратить.",
 ST_CUTauc_Variations/MacPlanner_ID_CUTauc_HireInsiderShort_ResultA_1_1,Уже отправлены. Ты только нос там погоди пудрить. Мне угашенный красноглазый нарик на задании не нужен.,
@@ -16116,7 +16116,7 @@ A. Данное соглашение действует до тех пор, по
 ВЫ ПОДТВЕРЖДАЕТЕ СВОЕ СОГЛАСИЕ С ТЕМ, ЧТО ВЫ ТАКЖЕ ОБЯЗАНЫ ПРИНЯТЬ И СОБЛЮДАТЬ ПРАВИЛА СТОРОННИХ ПЛАТФОРМ, ОТНОСЯЩИЕСЯ К КОНКРЕТНОЙ ИГРЕ, ВКЛЮЧАЯ ИГРОВЫЕ ПРАВИЛА И ПРАВИЛА ОБСЛУЖИВАНИЯ КОМПАНИЙ SONY (SIEA И/ИЛИ SIEE), MICROSOFT, APPLE/IOS, GOOGLE И VALVE. ЛЮБОЕ НАРУШЕНИЕ ПРАВИЛ СТОРОННИХ ПЛАТФОРМ БУДЕТ РАССМАТРИВАТЬСЯ КАК СУЩЕСТВЕННОЕ НАРУШЕНИЕ ВАМИ УСЛОВИЙ ОБСЛУЖИВАНИЯ. ВЫ ОСОЗНАЕТЕ И СОГЛАШАЕТЕСЬ С ТЕМ, ЧТО В ОПРЕДЕЛЕННЫХ СЛУЧАЯХ ТАКИЕ СТОРОННИЕ ПЛАТФОРМЫ МОГУТ БЫТЬ ОСВОБОЖДЕНЫ ОТ ОПРЕДЕЛЕННЫХ ТИПОВ ОТВЕТСТВЕННОСТИ, ВОЗНИКШЕЙ ВСЛЕДСТВИЕ ИСПОЛЬЗОВАНИЯ ВАМИ ПРОГРАММНЫХ ПРОДУКТОВ, И ЧТО В НЕКОТОРЫХ СЛУЧАЯХ СТОРОННИЕ ПЛАТФОРМЫ МОГУТ БЫТЬ СТОРОННИМИ ВЫГОДОПРИОБРЕТАТЕЛЯМИ СОГЛАСНО НАСТОЯЩЕМУ СОГЛАШЕНИЮ. 
 Свяжитесь с нами, если у вас возникли вопросы, касающиеся настоящего ЛСКП или любых дополнительных условий, включая ознакомление с правилами любых сторонних платформ.
 19. ПОПРАВКИ К НАСТОЯЩЕМУ СОГЛАШЕНИЮ
-Компания 505 может обнародовать измененное ЛСКП в любое время по своему усмотрению, разместив измененное ЛСКП на своем веб-сайте или предоставив вам цифровой доступ к измененному ЛСКП через Программный продукт или другими средствами.  Если какая-либо поправка к настоящему ЛСКП неприемлема для вас, вы можете расторгнуть настоящее ЛСКП в соответствии с разделом 8 до вступления в силу такого измененного ЛСКП, после которого вы должны прекратить использование Программного продукта.  Используя Программный продукт после того, как измененное ЛСКП вступит в силу, или иным образом указывая на ваше согласие с измененным ЛСКП, вы соглашаетесь соблюдать условия измененного ЛСКП.  ",
+Компания 505 может обнародовать измененное ЛСКП в любое время по своему усмотрению, разместив измененное ЛСКП на своем веб-сайте или предоставив вам цифровой доступ к измененному ЛСКП через Программный продукт или другими средствами.  Если какая-либо поправка к настоящему ЛСКП неприемлема для вас, вы можете расторгнуть настоящее ЛСКП в соответствии с разделом 8 до вступления в силу такого измененного ЛСКП, после которого вы должны прекратить использование Программного продукта.  Используя Программный продукт после того, как измененное ЛСКП вступит в силу, или иным образом указывая на ваше согласие с измененным ЛСКП, вы соглашаетесь соблюдать условия измененного ЛСКП.   ",
 ST_EULA/umg_EULA_SIEE_text,"ЛИЦЕНЗИОННОЕ СОГЛАШЕНИЕ С КОНЕЧНЫМ ПОЛЬЗОВАТЕЛЕМ ИГРЫ CRIME BOSS: ROCKAY CITY
 
 1. ПОЖАЛУЙСТА, ВНИМАТЕЛЬНО ПРОЧТИТЕ НИЖЕСЛЕДУЮЩУЮ ВАЖНУЮ ИНФОРМАЦИЮ:
@@ -16433,7 +16433,7 @@ A. Данное соглашение действует до тех пор, по
 ВЫ ПОДТВЕРЖДАЕТЕ СВОЕ СОГЛАСИЕ С ТЕМ, ЧТО ВЫ ТАКЖЕ ОБЯЗАНЫ ПРИНЯТЬ И СОБЛЮДАТЬ ПРАВИЛА СТОРОННИХ ПЛАТФОРМ, ОТНОСЯЩИЕСЯ К КОНКРЕТНОЙ ИГРЕ, ВКЛЮЧАЯ ИГРОВЫЕ ПРАВИЛА И ПРАВИЛА ОБСЛУЖИВАНИЯ КОМПАНИЙ SONY (SIEA И/ИЛИ SIEE), MICROSOFT, APPLE/IOS, GOOGLE И VALVE. ЛЮБОЕ НАРУШЕНИЕ ПРАВИЛ СТОРОННИХ ПЛАТФОРМ БУДЕТ РАССМАТРИВАТЬСЯ КАК СУЩЕСТВЕННОЕ НАРУШЕНИЕ ВАМИ УСЛОВИЙ ОБСЛУЖИВАНИЯ. ВЫ ОСОЗНАЕТЕ И СОГЛАШАЕТЕСЬ С ТЕМ, ЧТО В ОПРЕДЕЛЕННЫХ СЛУЧАЯХ ТАКИЕ СТОРОННИЕ ПЛАТФОРМЫ МОГУТ БЫТЬ ОСВОБОЖДЕНЫ ОТ ОПРЕДЕЛЕННЫХ ТИПОВ ОТВЕТСТВЕННОСТИ, ВОЗНИКШЕЙ ВСЛЕДСТВИЕ ИСПОЛЬЗОВАНИЯ ВАМИ ПРОГРАММНЫХ ПРОДУКТОВ, И ЧТО В НЕКОТОРЫХ СЛУЧАЯХ СТОРОННИЕ ПЛАТФОРМЫ МОГУТ БЫТЬ СТОРОННИМИ ВЫГОДОПРИОБРЕТАТЕЛЯМИ СОГЛАСНО НАСТОЯЩЕМУ СОГЛАШЕНИЮ. 
 Свяжитесь с нами, если у вас возникли вопросы, касающиеся настоящего ЛСКП или любых дополнительных условий, включая ознакомление с правилами любых сторонних платформ.
 19. ПОПРАВКИ К НАСТОЯЩЕМУ СОГЛАШЕНИЮ
-Компания 505 может обнародовать измененное ЛСКП в любое время по своему усмотрению, разместив измененное ЛСКП на своем веб-сайте или предоставив вам цифровой доступ к измененному ЛСКП через Программный продукт или другими средствами.  Если какая-либо поправка к настоящему ЛСКП неприемлема для вас, вы можете расторгнуть настоящее ЛСКП в соответствии с разделом 8 до вступления в силу такого измененного ЛСКП, после которого вы должны прекратить использование Программного продукта.  Используя Программный продукт после того, как измененное ЛСКП вступит в силу, или иным образом указывая на ваше согласие с измененным ЛСКП, вы соглашаетесь соблюдать условия измененного ЛСКП.",
+Компания 505 может обнародовать измененное ЛСКП в любое время по своему усмотрению, разместив измененное ЛСКП на своем веб-сайте или предоставив вам цифровой доступ к измененному ЛСКП через Программный продукт или другими средствами.  Если какая-либо поправка к настоящему ЛСКП неприемлема для вас, вы можете расторгнуть настоящее ЛСКП в соответствии с разделом 8 до вступления в силу такого измененного ЛСКП, после которого вы должны прекратить использование Программного продукта.  Используя Программный продукт после того, как измененное ЛСКП вступит в силу, или иным образом указывая на ваше согласие с измененным ЛСКП, вы соглашаетесь соблюдать условия измененного ЛСКП..",
 ST_EULA/umg_EULA_header,ЛИЦЕНЗИОННОЕ СОГЛАШЕНИЕ С КОНЕЧНЫМ ПОЛЬЗОВАТЕЛЕМ ИГРЫ CRIME BOSS: ROCKAY CITY,
 ST_event_Cutscenes/meta__event_Economy16_choice,"Компания прилично отстегнет нам, если мы сохраним в тайне ее сделку.{0}",
 ST_event_Cutscenes/meta__event_Economy14_choice,"Член нашей команды украл фургон, и он нам пригодится. Так мы немного сэкономим.{0}",
@@ -16612,6 +16612,7 @@ ST_Events/format_separator-final, и ,
 ST_Events/format_separator,", ",
 ST_Events/event_breakthebank-3_title,Сорвать банк III,
 ST_Events/event_breakthebank-4_title,Сорвать банк IV,
+ST_Events/event_modkit_title,Crime Boss ModKit,
 ST_Events/event_doublexp_11_1_2024_description,"На этих выходных в мире Crime Boss вас ждет всеобщее испытание «Заварушка в Рокае». Играйте, получайте двойной опыт и награды! Подробную информацию читайте в соцсетях и на Discord-сервере.
 
 {start_end_text}.",
@@ -16644,6 +16645,8 @@ ST_Events/event_doublexp_11_29_2024_description,"В последние выхо�
 ST_Events/event_doublexp_12_27_2024_description,"В последние выходные каждого месяца начисляется двойной опыт. Играйте и прокачивайтесь быстрее!
 
 {start_end_text}.",
+ST_Events/event_modkit_description,"Дайте свободу творчеству с нашими инструментами для моддинга!
+Создавайте свои дополнения к Crime Boss из готовых шаблонов и попробуйте другие интересные возможности!",
 ST_Events/event_breakthebank-3_description,"Привет всем боссам! Это общее событие <BigEm>СОРВАТЬ БАНК</>! 
 
 Ближайшую неделю доход игроков от заданий в совместном режиме будет суммироваться и идти в общий зачет. На каждом открытом уровне будут разблокироваться новые игровые бонусы для всех игроков в Crime Boss! 
@@ -20244,7 +20247,7 @@ ST_Lobby/lobby_code_description,Хост может найти код в лоб�
 ST_Lobby/join_by_code_failed_title,Не удалось присоединиться лобби,
 ST_Lobby/umg_lobby_waiting_for_players,Ожидание игроков,
 ST_Lobby/join_by_code_failed_description,"Не удалось подключиться к лобби. Возможно, оно заполнено, недоступно, или вы ввели неверный код. Попробуйте еще раз.",
-ST_Lobby/umg_lobby_pingwarning,"У вас высокая задержка. Скорее всего, производительность будет снижена.",У вас высокий пинг. Ваш опыт может быть ухудшен.
+ST_Lobby/umg_lobby_pingwarning,"У вас высокая задержка. Скорее всего, производительность будет снижена.",У вас высокий пинг. Ваш игровой опыт может быть ухудшен.
 ST_Locations/area_store_water_threat,"Тут был
 чувак из
 «Мыслить как преступник».",
@@ -20625,8 +20628,8 @@ ST_MainMenu/umg_main_stories,Городские легенды,
 ST_MainMenu/umg_main_incompatible_save_confirm,Использовать старые сохраненные данные,
 ST_MainMenu/umg_main_tutorial_popup_title,Хотите сначала пройти обучение?,
 ST_MainMenu/umg_mods_detected_description,"Похоже, вы играете в модифицированную версию игры. Возможны непредвиденные ошибки, нестабильная работа игры и потеря игрового прогресса.",
-ST_MainMenu/reset_progress_description,"Весь прогресс будет сброшен. Вы начнете новое сохранение.\
-\
+ST_MainMenu/reset_progress_description,"Весь прогресс будет сброшен. Вы начнете новое сохранение.
+
 Вы уверены в своем решении? Его нельзя будет отменить.",
 ST_MainMenu/umg_main_multiplayer_poup_text,Вот-вот начнется совместная игра. Рекомендуется сначала пройти обучение. Пройти его сейчас?,
 ST_MainMenu/save_recovery_fail_description,"Похоже, файл с сохранением поврежден.
@@ -21047,7 +21050,7 @@ ST_meta_BonusObjectives/meta_missionobjective_coc-detectives-no,Не убива�
 ST_meta_BonusObjectives/meta_missionobjective_onlytarget,Убить только цель и никого больше,
 ST_meta_BonusObjectives/meta_missionobjective_custom_car_lootsafes-all,Обнести все сейфы,
 ST_meta_BonusObjectives/meta_missionobjective_custom_car_lootsafes-x,"Обнести сейфы ({Amount}) {Amount}|plural(one=сейф, other=сейфа)","Обнести {Amount} {Amount}|plural(one=сейф,few=сейфа,many=сейфов,,other=сейфов)"
-ST_meta_BonusObjectives/meta_missionobjective_detective-kill,Заманите и убейте детектива,
+ST_meta_BonusObjectives/meta_missionobjective_detective-kill,Заманите и убейте детектива,Заманить и убить детектива
 ST_meta_BonusObjectives/meta_missionobjective_maxheisters-1,Только один член группы,
 ST_meta_BonusObjectives/meta_missionobjective_custom_hie_correct-truck,Открыть только нужный фургон,
 ST_meta_BonusObjectives/meta_missionobjective_overheatany,Защитить все гаджеты от перегрева и перебоев в работе,
@@ -21145,7 +21148,7 @@ ST_meta_BossLevel/meta_bosslevel_bonus_health-captain,Повышенное зд�
 ST_meta_BossLevel/meta_bosslevel_category_captain_description,"Выпуская на поле Тачдауна, вы выходите в высшую лигу. Ваш капитан на поле боя при захвате территорий и отражении атак. 
 
 Вы росли вместе с этим несгибаемым сукиным сыном, отметившимся в зале славы Национальной футбольной лиги, ветераном войны. Чемпион, тренер и охеренно безбашенный тип. ",
-ST_meta_BossLevel/meta_bosslevel_bonus_missionreward,Увеличенная ожидаемая ценность задания,
+ST_meta_BossLevel/meta_bosslevel_bonus_missionreward,Увеличенная ожидаемая ценность задания,Увеличенная ожидаемая добыча задания
 ST_meta_BossLevel/meta_bosslevel_bonus_army-size,Увеличенный макс. размер армии,
 ST_meta_BossLevel/meta_bosslevel_bonus_army-start,Увеличенный стартовый размер армии,
 ST_meta_BossLevel/meta_bosslevel_level,Уровень,
@@ -21510,7 +21513,7 @@ ST_meta_Debrief/umg_meta_heister_debrief_jailed,В тюрьме,
 ST_meta_Debrief/umg_meta_debrief_kills_title,Убийств,
 ST_meta_Debrief/umg_meta_heister_debrief_results_loot,Ценность добычи,
 ST_meta_Debrief/umg_meta_debrief_main_stats,Главная статистика,
-ST_meta_Debrief/umg_meta_heister_debrief_objectives_main,Главная задача,
+ST_meta_Debrief/umg_meta_heister_debrief_objectives_main,Главная задача,Главная цель
 ST_meta_Debrief/umg_meta_heister_debrief_missing,Пропажа,
 ST_meta_Debrief/umg_meta_heister_debrief_missing_dead_team_member,Членов команды пропавших или убитых,
 ST_meta_Debrief/umg_meta_heister_debrief_results_outcome,Исход задания,
@@ -22397,7 +22400,7 @@ ST_meta_GUI/meta_end_day,Закончить день,
 ST_meta_GUI/meta_end_day_popup_confirm,Всё равно закончить день!,
 ST_meta_GUI/meta_menu_mission_enemy,Противник,
 ST_meta_GUI/meta_menu_mission_loot,Ожидаемая добыча,
-ST_meta_GUI/meta_menu_mission_max_reward,Ожидаемая ценность,
+ST_meta_GUI/meta_menu_mission_max_reward,Ожидаемая ценность,Ожидаемая добыча
 ST_meta_GUI/meta_menu_mission_expenses,Расход,
 ST_meta_GUI/meta_menu_mission_subtext-difficulty-extreme,Экстремальный риск,
 ST_meta_GUI/meta_menu_mission_weaken_strength,Меньше солдат на территории,
@@ -22417,7 +22420,7 @@ ST_meta_GUI/meta_navbar_loanrepay,Выплата займа,
 ST_meta_GUI/meta_menu_mission_warehouseattack_lose-loot,Трофеи,
 ST_meta_GUI/meta_menu_mission_subtext_difficulty-easy,Низкий риск,
 ST_meta_GUI/meta_menu_mission_defendbusinesspartner_bonus-lowertier,Понизить уровень нападающей армии,
-ST_meta_GUI/meta_menu_mission_objective,Главная задача,
+ST_meta_GUI/meta_menu_mission_objective,Главная задача,Главная цель
 ST_meta_GUI/meta_characterstate_missing,Пропажа,
 ST_meta_GUI/meta_menu_mission_subtext_difficulty-medium,Умеренный риск,
 ST_meta_GUI/meta_menu_mission_weaken_strength-2,Заметно проредить численность солдат,
@@ -22443,8 +22446,8 @@ ST_meta_GUI/meta_characterstate_resting,Отдых,
 ST_meta_GUI/meta_plans_answer,Задать больше целей,
 ST_meta_GUI/meta_menu_mission_weaken_strength-1,Немного проредить численность солдат,
 ST_meta_GUI/meta_menu_unresolved_jobs_require_attention,Истекает срок некоторых доступных заданий!,
-ST_meta_GUI/meta_menu_mission_bonus_obj,Показывать цель,
-ST_meta_GUI/meta_menu_mission_reward_bonus,Показывать цель,
+ST_meta_GUI/meta_menu_mission_bonus_obj,Показывать цель,Особая цель
+ST_meta_GUI/meta_menu_mission_reward_bonus,Показывать цель,Особая цель
 ST_meta_GUI/meta_menu_mission_reward,Награда за особую цель,
 ST_meta_GUI/meta_menu_mission_subtext_stealth-available,Доступен скрытный режим,
 ST_meta_GUI/meta_menu_mission_subtext_stealth-required,Требуется незаметность,
@@ -25770,6 +25773,7 @@ ST_News/news_entitlements_weaponpack1_description,"Спасибо, что куп
 ST_News/news_entitlements_cagnalisorder_description,"Спасибо, что купили расширение ""Приказы Канали"" и поддержали нас. Начните новую кампанию, чтобы восстать против машин и узнать, что скрывает будущее.",
 ST_News/news_entitlements_goldcup_description,"Спасибо, что купили расширение «Золотой кубок Дракона» и поддержали нас. Начните новую игру в роглайт-режиме, чтобы устроить гонку за золотом.",
 ST_News/news_entitlements_bakersbundle_description,"Спасибо, что поддержали нас и заказали Набор Бейкера. В настройках можно включить бонусные параметры внешности.",
+ST_News/news_visit_website,Перейти на сайт,
 ST_News/news_visit_shop,"Посетите {platform}|platform(other=магазин, ps5=PlayStation™Store, xsx=Microsoft Store, xss=Microsoft Store)",
 ST_News/news_entitlements_characters_wiz_title,Набор персонажа — Виз,
 ST_News/news_entitlements_characters_wiz_available,"Виз готов украсть всё, включая ваше сердечко.
@@ -27260,9 +27264,9 @@ ST_ran2_Objectives/obj_ran2_escape,Пора бежать,
 ST_ran2_Objectives/obj_ran2_custom_empty, ,
 ST_ran3_Objectives/obj_ran3_defend_left_flank,Защитить левый фланг,
 ST_ran3_Objectives/obj_ran3_get_helicopter,Добраться до вертолета,
-ST_ran3_Objectives/interactive_m60,Взять пулемет,
+ST_ran3_Objectives/interactive_m60,Взять пулемет,Взять пулемёт
 ST_ran3_Objectives/obj_ran3_survive,Оставайтесь в живых.,Выжить
-ST_ran3_Objectives/obj_ran3_m60,Забрать пулемет,
+ST_ran3_Objectives/obj_ran3_m60,Забрать пулемет,Забрать пулемёт
 ST_ran4_Objectives/obj_ran4_grenade_launcher,Стрелять из миномета,
 ST_ran4_Objectives/obj_ran4_hold_position,Держать позицию,
 ST_ran4_Objectives/obj_ran4_left_flank,Защитить левый фланг,
@@ -27274,7 +27278,7 @@ ST_ran5_Objectives/obj_ran5_get_out,Выбраться,
 ST_ran5_Objectives/obj_ran5_get_to_the_tunnels,Доберитесь до туннелей.,Добраться до туннелей
 ST_ran5_Objectives/obj_ran5_hold_enemies,Сдерживать врага,
 ST_ran5_Objectives/obj_ran5_find_red_star,Найти Красную звезду,
-ST_ranger_Variations/StoryCharacter2DRadio_ID_ranger_m2_jungle5_1_All_1, Доложите обстановку.,
+ST_ranger_Variations/StoryCharacter2DRadio_ID_ranger_m2_jungle5_1_All_1, Доложите обстановку.,Доложите обстановку.
 ST_ranger_Variations/GenericHeister_ID_ranger_m5_vault2_1_All_1,Жарковато здесь!,
 ST_ranger_Variations/StoryCharacter3D_ID_ranger_m4_case1_1_All_1,"А, Рейнджер. Ты всё еще в ударе!",
 ST_ranger_Variations/StoryCharacter3D_ID_ranger_m5_hold10_1_All_1,Да бля! Они...,
@@ -29964,8 +29968,8 @@ ST_TeamCombat_Variations/GenericHeister_ID_TeamCombat_mech_kills_1_All_3,Жел�
 ST_TeamCombat_Variations/GenericHeister_ID_TeamCombat_heavy_kills_1_All_3,Бульдозер готов.,
 ST_TeamCombat_Variations/GenericHeister_ID_TeamCombat_shield_kills_1_All_3,Минус один щитовик.,
 ST_TeamCombat_Variations/GenericHeister_ID_TeamCombat_sniper_kills_1_All_3,Снайпер готов.,
-ST_TeamCombat_Variations/GenericHeister_ID_TeamCombat_reload_1_All_10,Перезаряжаться!,
-ST_TeamCombat_Variations/GenericHeister_ID_TeamCombat_reload_1_All_5,Перезаряжаться!,
+ST_TeamCombat_Variations/GenericHeister_ID_TeamCombat_reload_1_All_10,Надо перезарядиться!,
+ST_TeamCombat_Variations/GenericHeister_ID_TeamCombat_reload_1_All_5,Надо перезарядиться!,
 ST_TeamCombat_Variations/GenericHeister_ID_TeamCombat_ammo_half_1_All_1,Магазин полупустой.,
 ST_TeamCombat_Variations/GenericHeister_ID_TeamCombat_ammo_half_1_All_6,Магазин полупустой.,
 ST_TeamCombat_Variations/GenericHeister_ID_TeamCombat_ammo_half_1_All_2,Половина расстреляна.,
@@ -33018,11 +33022,11 @@ ST_Weapons/weapon_taurus_title,PT 22 Silenced,Бесшумный PT 22
 ST_Weapons/weapons_scifi-knife_title,Плазменный клинок,Плазменный клинок
 ST_Weapons/weapon_policesniper_title,Полицейская снайперская винтовка,Полицейская снайперская винтовка
 ST_Weapons/weapon_baton_title,Полицейская дубинка,Полицейская дубинка
-ST_Weapons/weapon_benelli_title,Ружье,Ружье «Бенелли»
-ST_Weapons/weapon_benelli-detective_title,Ружье «Бенелли»,Ружье «Бенелли» детектива
-ST_Weapons/weapon_benelli-tuna_title,Элитный «Ружье»,Элитное ружье «Бенелли»
-ST_Weapons/weapon_benelli-holo_title,Ружье H,Ружье «Бенелли» H
-ST_Weapons/weapon_benelli-reddot_title,Ружье R,Ружье «Бенелли» R
+ST_Weapons/weapon_benelli_title,Ружье,«Бенелли»
+ST_Weapons/weapon_benelli-detective_title,Ружье «Бенелли»,«Бенелли» детектива
+ST_Weapons/weapon_benelli-tuna_title,Элитный «Ружье»,Элитный «Бенелли»
+ST_Weapons/weapon_benelli-holo_title,Ружье H,«Бенелли» H
+ST_Weapons/weapon_benelli-reddot_title,Ружье R,«Бенелли» R
 ST_Weapons/weapon_ithaca_title,Улучшенная «Итака»,Итака
 ST_Weapons/weapon_ithaca-improved_title,Улучшенная версия II,"Итака, версия II"
 ST_Weapons/weapons_scifi-smg_title,Кварковая пушка,Кварковая пушка
@@ -33100,7 +33104,7 @@ ST_Weapons/weapon_tomahawk_title,Тактический томагавк,Так�
 ST_Weapons/weapon_knife-ranger_title,Тактический нож,Тактический нож
 ST_Weapons/weapon_microuzi-theresa_title,ПП Терезы,ПП Терезы
 ST_Weapons/weapon_m60-touchdown_title,Пулемет Тачдауна,Пулемёт Тачдауна
-ST_Weapons/weapon_streetsweeper_title,Новая метла,Новая метла
+ST_Weapons/weapon_streetsweeper_title,Новая метла,Городской штурмовик
 ST_Weapons/weapon_ak74_title,Калаш,Калаш
 ST_Weapons/weapon_ak74-custom_title,Калаш +,Калаш +
 ST_Weapons/weapon_ak74-elite_title,Калаш EB,Калаш EB
